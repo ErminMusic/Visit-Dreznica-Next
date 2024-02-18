@@ -16,7 +16,7 @@ const Header = () => {
 
 export default Header;
 
-const Wrapper = styled.div`
+const Wrapper = styled.header`
     height: 80px;
     width: 100%;
     background: #4b7376;
