@@ -60,7 +60,7 @@ export const GuestReviewSecond = [
     {
         name: "Rayru",
         profileImage: "/Reviews/ProfilePlaceholder.webp",
-        flag: "Reviews/Venecuela.webp",
+        flag: "/Reviews/Venecuela.webp",
         countryName: "Venezuela",
         score: "10",
         date: "23/08/2023",
@@ -70,8 +70,8 @@ export const GuestReviewSecond = [
     },
     {
         name: "Kira",
-        profileImage: "Reviews/KiraImage.webp",
-        flag: "Reviews/Rusija.webp",
+        profileImage: "/Reviews/KiraImage.webp",
+        flag: "/Reviews/Rusija.webp",
         countryName: "Russia",
         score: "10",
         date: "17/08/2022",
@@ -82,7 +82,7 @@ export const GuestReviewSecond = [
     {
         name: "Pieterelsf",
         profileImage: "/Reviews/ProfilePlaceholder.webp",
-        flag: "Reviews/Belgija.webp",
+        flag: "/Reviews/Belgija.webp",
         countryName: "Belgium",
         score: "10",
         date: "09/09/2021",
@@ -93,7 +93,7 @@ export const GuestReviewSecond = [
     {
         name: "Arun",
         profileImage: "/Reviews/ProfilePlaceholder.webp",
-        flag: "Reviews/Norveska.webp",
+        flag: "/Reviews/Norveska.webp",
         countryName: "Netherlands",
         score: "10",
         date: "30/08/2023",
@@ -104,7 +104,7 @@ export const GuestReviewSecond = [
     {
         name: "Ali Zein",
         profileImage: "/Reviews/AliImage.webp",
-        flag: "Reviews/Njemacka.webp",
+        flag: "/Reviews/Njemacka.webp",
         countryName: "Germany",
         score: "10",
         date: "21/04/2023",

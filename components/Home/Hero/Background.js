@@ -12,8 +12,8 @@ function Background() {
                 src={HeroBg}
                 srcSet={`${HeroBgPhone} 600w, ${HeroBg} 1920w`}
                 sizes="(max-width: 600px) 100vw, 1920px"
-                width={100}
-                height={100}
+                width={1100}
+                height={800}
                 priority="high"
             />
         </>

@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import { GuestReview, GuestReviewSecond } from "../../../data/GuestReview";
 import About from "../About/About";
-// import AboutUs from "../sections/AboutUs"
-// import RoomEquipment from "../sections/RoomEquipment"
-// import Rooms from "../sections/Rooms"
 import Strip from "../Strip/Strip";
-// import Activities from "../sections/Activities"
-// import Review from "../sections/Review"
-// import Galery from "../sections/Galery"
+import RoomEquipment from "../RoomEquipment/RoomEquipment";
+import Rooms from "../Room/Rooms";
+import Activities from "../Activites-Attractions/Activitie-Attraction";
+import Review from "../ReviewSlider/Review";
+import AboutUs from "../About/AboutUs";
+import Galery from "../Galery/Galery";
 
 function HomeFetch() {
     const AboutDreznica = {
@@ -70,12 +70,12 @@ function HomeFetch() {
         <Container>
             <About content={AboutDreznica} />
             <Strip guestInfo={GuestReview} />
-            {/* <RoomEquipment />
-                <Rooms />
-                <Activities />
-                <Review guestInfo={GuestReviewSecond} />
-                <AboutUs content={AboutVisitDreznica} />
-                <Galery /> */}
+            <RoomEquipment />
+            <Rooms />
+            <Activities />
+            <Review guestInfo={GuestReviewSecond} />
+            <AboutUs content={AboutVisitDreznica} />
+            <Galery />
         </Container>
     );
 }

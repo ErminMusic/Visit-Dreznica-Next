@@ -23,9 +23,6 @@ const Wrapper = styled.header`
     display: flex;
     justify-content: center;
     color: white;
-    position: sticky;
-    top: 0;
-    z-index: 100;
 `;
 const Container = styled.div`
     width: 80%;

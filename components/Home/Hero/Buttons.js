@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styled from "styled-components";
 
 function Buttons() {
@@ -10,9 +11,9 @@ function Buttons() {
 
     return (
         <ButtonHolder>
-            <Link href="#Rooms">
+            <CustomLink href="#Rooms">
                 {buttonContent.buttonOne} <span>{buttonContent.buttonOneSpan}</span>
-            </Link>
+            </CustomLink>
 
             <ContactLink href="/Contact">
                 <span>{buttonContent.buttonTwoSpan}</span> {buttonContent.buttonTwo}
@@ -27,7 +28,7 @@ const ButtonHolder = styled.div`
     display: flex;
     flex-direction: column;
 `;
-const Link = styled.a`
+const CustomLink = styled(Link)`
     text-decoration: none;
     border-radius: 10px;
     color: white;
@@ -54,7 +55,7 @@ const Link = styled.a`
     }
 `;
 
-const ContactLink = styled(Link)`
+const ContactLink = styled(CustomLink)`
     background-color: #8fbc8f;
     margin-top: 20px;
     &:hover {

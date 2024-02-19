@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 
 function Icons() {
@@ -27,6 +28,8 @@ function Icons() {
                         loading="lazy"
                         alt={item.alter}
                         src={item.icon}
+                        width={100}
+                        height={100}
                     />
                     <TextHolder>
                         <p>{item.text}</p>
@@ -68,7 +71,7 @@ const Wrapper = styled.div`
         align-items: center;
     }
 `;
-const IconHolder = styled.img`
+const IconHolder = styled(Image)`
     width: 80px;
     height: 80px;
     border-radius: 10px 10px 10px 0;
