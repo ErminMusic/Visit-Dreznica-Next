@@ -1,5 +1,5 @@
-import Heder from "@/components/Heder/Header";
-import Hero from "@/components/Hero/Hero";
+import Hero from "@/components/Home/Hero/Hero";
+import HomePage from "@/components/Home/HomePage/HomePage";
 import { Partytown } from "@builder.io/partytown/react";
 import Head from "next/head";
 
@@ -11,7 +11,7 @@ export default function Home() {
                 <Partytown debug={true} forward={["dataLayer.push"]} />
             </Head>
             <main>
-                <Hero />
+                <HomePage />
             </main>
         </>
     );

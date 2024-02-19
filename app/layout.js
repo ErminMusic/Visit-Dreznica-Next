@@ -1,4 +1,4 @@
-import Header from "@/components/Heder/Header";
+import Header from "@/components/universal/Heder/Header";
 import "./globals.css";
 import StyledComponentsRegistry from "../lib/registry";
 export const metadata = {
