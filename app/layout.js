@@ -2,9 +2,9 @@ import Header from "@/components/universal/Heder/Header";
 import "./globals.css";
 import StyledComponentsRegistry from "../lib/registry";
 import Footer from "@/components/universal/Footer/Footer";
-import Head from "next/head";
-import { Partytown } from "@builder.io/partytown/react";
-import Script from "next/script";
+// import Head from "next/head";
+// import { Partytown } from "@builder.io/partytown/react";
+// import Script from "next/script";
 export const metadata = {
     title: "Visit Drežnica | Rent a Room",
     description:
