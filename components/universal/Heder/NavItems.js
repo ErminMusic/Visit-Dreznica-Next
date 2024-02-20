@@ -6,11 +6,11 @@ function NavItems() {
     const activities = [
         {
             name: "Activities",
-            link: "/Activities",
+            link: "Activities",
         },
         {
             name: "Nearby Attractions",
-            link: "/Attractions",
+            link: "Attractions",
         },
     ];
     const about = [

@@ -23,7 +23,7 @@ function Dropdown({ title, options }) {
             <Drop>
                 {options.map((item, index) => (
                     <DropOptions
-                        href={`${item.link}`}
+                        href={`/${item.link}`}
                         key={index}
                     >
                         {item.name}
