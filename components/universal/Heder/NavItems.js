@@ -13,16 +13,6 @@ function NavItems() {
             link: "Attractions",
         },
     ];
-    const about = [
-        {
-            name: "About Drežnica",
-            link: "#AboutDreznica",
-        },
-        {
-            name: "About Us",
-            link: "#AboutUs",
-        },
-    ];
     const title = {
         home: "Home",
         howTo: "How To Book",
@@ -36,9 +26,6 @@ function NavItems() {
                 <span>
                     <Link href="/">{title.home}</Link>
                 </span>
-            </NavBarItem>
-            <NavBarItem>
-                <Dropdown title="About Us" options={about} />
             </NavBarItem>
             <NavBarItem>
                 <Dropdown title="Activities" options={activities} />

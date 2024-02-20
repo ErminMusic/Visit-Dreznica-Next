@@ -4,6 +4,7 @@ import StyledComponentsRegistry from "../lib/registry";
 import Footer from "@/components/universal/Footer/Footer";
 import { Partytown } from "@builder.io/partytown/react";
 import Script from "next/script";
+import ScrollToTopButton from "@/components/universal/ScrollButton/ScrollToTopButton";
 export const metadata = {
     title: "Visit Drežnica | Rent a Room",
     description:
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
                         <Header />
                     </header>
                     {children}
+                    <ScrollToTopButton />
                     <footer>
                         <Footer />
                     </footer>
