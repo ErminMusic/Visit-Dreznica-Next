@@ -16,11 +16,11 @@ function NavItems() {
     const about = [
         {
             name: "About Drežnica",
-            link: "#About Drežnica",
+            link: "#AboutDreznica",
         },
         {
-            name: "#About Us",
-            link: "#About Us",
+            name: "About Us",
+            link: "#AboutUs",
         },
     ];
     const title = {

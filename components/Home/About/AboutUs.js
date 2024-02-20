@@ -19,7 +19,7 @@ function AboutUs({ content }) {
     };
 
     return (
-        <Wrap id="About Us">
+        <Wrap id="AboutUs">
             <Container>
                 <AboutImage image={content.image} alter={content.alter} />
                 <Content

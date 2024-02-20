@@ -28,7 +28,7 @@ function About({ content }) {
         }).isRequired,
     };
     return (
-        <Wrap id="About Drežnica">
+        <Wrap id="AboutDreznica">
             <Container>
                 <AboutImage image={content.image} alter={content.alter} />
                 <Content
