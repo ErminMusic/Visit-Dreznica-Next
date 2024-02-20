@@ -2,7 +2,6 @@ import Header from "@/components/universal/Heder/Header";
 import "./globals.css";
 import StyledComponentsRegistry from "../lib/registry";
 import Footer from "@/components/universal/Footer/Footer";
-import Head from "next/head";
 import { Partytown } from "@builder.io/partytown/react";
 import Script from "next/script";
 export const metadata = {
@@ -15,7 +14,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" suppressHydrationWarning={true}>
             <StyledComponentsRegistry>
-                {/* <head>
+                <head>
                     <Partytown debug={true} forward={["dataLayer.push"]} />
                     <Script
                         src="https://www.googletagmanager.com/gtag/js?id=G-6TCDM52R17"
@@ -30,7 +29,7 @@ export default function RootLayout({ children }) {
                         gtag('config', 'G-6TCDM52R17');
                     `}
                     </Script>
-                </head> */}
+                </head>
                 <body suppressHydrationWarning={true}>
                     <header>
                         <Header />
