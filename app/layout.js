@@ -14,24 +14,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en" suppressHydrationWarning={true}>
-            <head>
-                <title>My App</title>
-                <Partytown debug={true} forward={["dataLayer.push"]} />
-                <Script
-                    src="https://www.googletagmanager.com/gtag/js?id=G-6TCDM52R17"
-                    strategy="beforeInteractive"
-                    async
-                />
-                <Script id="gtag" strategy="beforeInteractive" async>
-                    {`
+            <StyledComponentsRegistry>
+                <head>
+                    <Partytown debug={true} forward={["dataLayer.push"]} />
+                    <Script
+                        src="https://www.googletagmanager.com/gtag/js?id=G-6TCDM52R17"
+                        strategy="beforeInteractive"
+                        async
+                    />
+                    <Script id="gtag" strategy="beforeInteractive" async>
+                        {`
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
                         gtag('config', 'G-6TCDM52R17');
                     `}
-                </Script>
-            </head>
-            <StyledComponentsRegistry>
+                    </Script>
+                </head>
                 <body suppressHydrationWarning={true}>
                     <header>
                         <Header />
