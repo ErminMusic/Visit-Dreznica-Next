@@ -6,27 +6,21 @@ function NavItems() {
     const activities = [
         {
             name: "Activities",
-            link: "Activities",
-
+            link: "/Activities",
         },
         {
             name: "Nearby Attractions",
-            link: "Attractions",
-
+            link: "/Attractions",
         },
     ];
-    const symbol = {
-        slash: "/",
-        hash: "#",
-    };
     const about = [
         {
             name: "About Drežnica",
-            link: "About Drežnica",
+            link: "#About Drežnica",
         },
         {
-            name: "About Us",
-            link: "About Us",
+            name: "#About Us",
+            link: "#About Us",
         },
     ];
     const title = {
@@ -44,14 +38,10 @@ function NavItems() {
                 </span>
             </NavBarItem>
             <NavBarItem>
-                <Dropdown path={symbol.hash} title="About Us" options={about} />
+                <Dropdown title="About Us" options={about} />
             </NavBarItem>
             <NavBarItem>
-                <Dropdown
-                    path={symbol.slash}
-                    title="Activities"
-                    options={activities}
-                />
+                <Dropdown title="Activities" options={activities} />
             </NavBarItem>
             <NavBarItem>
                 <span>

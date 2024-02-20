@@ -3,10 +3,9 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import PropTypes from "prop-types";
 import Link from "next/link";
 
-function Dropdown({ path, title, options }) {
+function Dropdown({ title, options }) {
     Dropdown.propTypes = {
         title: PropTypes.string.isRequired,
-        path: PropTypes.string.isRequired,
         options: PropTypes.arrayOf(
             PropTypes.shape({
                 name: PropTypes.string.isRequired,
@@ -24,7 +23,7 @@ function Dropdown({ path, title, options }) {
             <Drop>
                 {options.map((item, index) => (
                     <DropOptions
-                        href={`${path}${item.link}`}
+                        href={`${item.link}`}
                         key={index}
                     >
                         {item.name}
