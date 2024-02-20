@@ -7,11 +7,6 @@ export default function Home() {
         <>
             <Head>
                 <Partytown debug={true} forward={["dataLayer.push"]} />
-                <script
-                    src="https://www.googletagmanager.com/gtag/js?id=G-6TCDM52R17"
-                    type="text/partytown"
-                    async
-                />
             </Head>
             <main>
                 <HomePage />
