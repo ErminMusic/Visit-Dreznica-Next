@@ -1,7 +1,8 @@
 "use client";
+import dynamic from "next/dynamic";
 import styled from "styled-components";
-import FooterLinks from "./FooterLinks";
-import Map from "./Map";
+const FooterLinks = dynamic(() =>  import("./FooterLinks"));
+const Map = dynamic(() =>  import("./Map"));
 
 function Footer() {
     return (

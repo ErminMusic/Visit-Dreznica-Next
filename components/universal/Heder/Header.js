@@ -1,7 +1,8 @@
 "use client";
 import styled from "styled-components";
 import HeaderLogo from "./HeaderLogo";
-import MenuHolder from "./MenuHolder";
+import dynamic from "next/dynamic";
+const MenuHolder =  dynamic(() => import(("./MenuHolder")));
 
 const Header = () => {
     return (

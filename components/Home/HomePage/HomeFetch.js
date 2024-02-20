@@ -1,13 +1,14 @@
 import styled from "styled-components";
 import { GuestReview, GuestReviewSecond } from "../../../data/GuestReview";
-import About from "../About/About";
-import Strip from "../Strip/Strip";
-import RoomEquipment from "../RoomEquipment/RoomEquipment";
-import Rooms from "../Room/Rooms";
-import Activities from "../Activites-Attractions/Activitie-Attraction";
-import Review from "../ReviewSlider/Review";
-import AboutUs from "../About/AboutUs";
-import Galery from "../Galery/Galery";
+import dynamic from "next/dynamic";
+const About = dynamic(() => import("../About/About"));
+const Strip = dynamic(() => import("../Strip/Strip"));
+const RoomEquipment = dynamic(() => import("../RoomEquipment/RoomEquipment"));
+const Rooms = dynamic(() => import("../Room/Rooms"));
+const Activities = dynamic(() => import("../Activites-Attractions/Activitie-Attraction"));
+const Review = dynamic(() => import("../ReviewSlider/Review"));
+const AboutUs = dynamic(() => import("../About/AboutUs"));
+const Galery = dynamic(() => import("../Galery/Galery"));
 
 function HomeFetch() {
     const AboutDreznica = {
