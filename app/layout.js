@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" suppressHydrationWarning={true}>
             <StyledComponentsRegistry>
-                <head>
+                {/* <head>
                     <Partytown debug={true} forward={["dataLayer.push"]} />
                     <Script
                         src="https://www.googletagmanager.com/gtag/js?id=G-6TCDM52R17"
@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
                         gtag('config', 'G-6TCDM52R17');
                     `}
                     </Script>
-                </head>
+                </head> */}
                 <body suppressHydrationWarning={true}>
                     <header>
                         <Header />
