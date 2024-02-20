@@ -2,7 +2,6 @@ import Header from "@/components/universal/Heder/Header";
 import "./globals.css";
 import StyledComponentsRegistry from "../lib/registry";
 import Footer from "@/components/universal/Footer/Footer";
-import { Partytown } from "@builder.io/partytown/react";
 import Script from "next/script";
 import ScrollToTopButton from "@/components/universal/ScrollButton/ScrollToTopButton";
 export const metadata = {
@@ -16,6 +15,13 @@ export default function RootLayout({ children }) {
         <html lang="en" suppressHydrationWarning={true}>
             <StyledComponentsRegistry>
                 <body suppressHydrationWarning={true}>
+                    <head>
+                        <Script
+                            src="https://www.googletagmanager.com/gtag/js?id=G-6TCDM52R17"
+                            strategy="beforeInteractive"
+                            async
+                        />
+                    </head>
                     <header>
                         <Header />
                     </header>
