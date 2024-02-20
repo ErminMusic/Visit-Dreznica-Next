@@ -7,6 +7,25 @@ export default function Home() {
         <>
             <Head>
                 <Partytown debug={true} forward={["dataLayer.push"]} />
+                <script
+                    src="https://www.googletagmanager.com/gtag/js?id=G-6TCDM52R17"
+                    strategy="beforeInteractive"
+                    async
+                />
+                <script
+                    type="text/partytown"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                                window.dataLayer = window.dataLayer || [];
+                                window.gtag = function gtag(){window.dataLayer.push(arguments);}
+                                gtag('js', new Date());
+
+                                gtag('config', 'G-6TCDM52R17', { 
+                                    page_path: window.location.pathname,
+                                });
+                            `,
+                    }}
+                />
             </Head>
             <main>
                 <HomePage />
