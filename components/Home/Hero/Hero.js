@@ -12,6 +12,12 @@ function Hero() {
                 <ContentHolder>
                     <TextHolder />
                     <Buttons />
+                    {/* <a href="https://freetools.seobility.net/en/seocheck/visitdreznica.netlify.app">
+                        <img
+                            src="https://freetools.seobility.net/widget/widget.png?url=visitdreznica.netlify.app"
+                            alt="Seobility Score für visitdreznica.netlify.app"
+                        />
+                    </a> */}
                 </ContentHolder>
             </Container>
         </Wrap>

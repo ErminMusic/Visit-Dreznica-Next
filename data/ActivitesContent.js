@@ -1,24 +1,26 @@
+const RentABoat = "/General/RentABoat.webp";
+const RentABike = "/General/RentABike.webp";
 export const ActivitiesList = [
     {
-        image: "/General/RentABoat.webp",
+        image: RentABoat,
         name: "Rent a Boat",
         alter: "Rent a Boat Image",
         link: "Activities",
     },
     {
-        image: "/General/RentABoat.webp",
+        image: RentABoat,
         name: "Rent a Boat",
         alter: "Rent a Boat Image",
         link: "Activities",
     },
     {
-        image: "/General/RentABoat.webp",
+        image: RentABoat,
         name: "Rent a Boat",
         alter: "Rent a Boat Image",
         link: "Activities",
     },
     {
-        image: "/General/RentABoat.webp",
+        image: RentABoat,
         name: "Rent a Boat",
         alter: "Rent a Boat Image",
         link: "Activities",
@@ -27,27 +29,27 @@ export const ActivitiesList = [
 
 export const AttractionList = [
     {
-        image: "/General/RentABike.webp",
+        image: RentABike,
         name: "Rent a Bike",
         alter: "Rent a Bike Image",
-        link: "Nearby Attractions",
+        link: "Attractions",
     },
     {
-        image: "/General/RentABike.webp",
+        image: RentABike,
         name: "Rent a Bike",
         alter: "Rent a Bike Image",
-        link: "Nearby Attractions",
+        link: "Attractions",
     },
     {
-        image: "/General/RentABike.webp",
+        image: RentABike,
         name: "Rent a Bike",
         alter: "Rent a Bike Image",
-        link: "Nearby Attractions",
+        link: "Attractions",
     },
     {
-        image: "/General/RentABike.webp",
+        image: RentABike,
         name: "Rent a Bike",
         alter: "Rent a Bike Image",
-        link: "Nearby Attractions",
+        link: "Attractions",
     },
 ];

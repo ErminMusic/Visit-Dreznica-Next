@@ -3,19 +3,16 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import PropTypes from "prop-types";
 import Link from "next/link";
 
-function Dropdown({ title, options }) {
+function Dropdown({ path, title, options }) {
     Dropdown.propTypes = {
         title: PropTypes.string.isRequired,
-        options: PropTypes.arrayOf(PropTypes.string).isRequired,
-    };
-
-    const handleItemClick = (item) => {
-        if (title === "About Us" || item === "About Drežnica") {
-            window.location.href = `/#${item.replace(/\s+/g, "%20")}`;
-        } else if (title === "Activities") {
-            const url = `/${item.replace(/\s+/g, "%20")}`;
-            window.location.href = url;
-        }
+        path: PropTypes.string.isRequired,
+        options: PropTypes.arrayOf(
+            PropTypes.shape({
+                name: PropTypes.string.isRequired,
+                link: PropTypes.string.isRequired,
+            })
+        ),
     };
 
     return (
@@ -27,11 +24,10 @@ function Dropdown({ title, options }) {
             <Drop>
                 {options.map((item, index) => (
                     <DropOptions
-                        href={`#${item}`}
+                        href={`${path}${item.link}`}
                         key={index}
-                        onClick={() => handleItemClick(item)}
                     >
-                        {item}
+                        {item.name}
                     </DropOptions>
                 ))}
             </Drop>

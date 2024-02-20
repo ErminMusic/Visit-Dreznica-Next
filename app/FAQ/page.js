@@ -1,10 +1,10 @@
 "use client";
-import ContactUs from "@/components/Contact-Book/ContactUs";
+import FAQ from "@/components/FAQ/FAQ";
 
 export default function page() {
     return (
         <div>
-            <ContactUs />
+            <FAQ />
         </div>
     );
 }

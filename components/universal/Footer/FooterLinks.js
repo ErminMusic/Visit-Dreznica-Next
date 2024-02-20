@@ -22,7 +22,7 @@ function FooterLinks() {
         links: [
             {
                 name: "How To Book",
-                link: "/How To Book",
+                link: "/HowToBook",
             },
             {
                 name: "Contact Us",
@@ -43,7 +43,7 @@ function FooterLinks() {
             },
             {
                 name: "Nearby Attractions",
-                link: "/Nearby Attractions",
+                link: "/Attractions",
             },
         ],
     };

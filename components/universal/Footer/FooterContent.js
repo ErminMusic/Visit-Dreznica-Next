@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from "styled-components";
 import Link from "next/link";
 import PropTypes from "prop-types";
 
@@ -18,7 +18,9 @@ function FooterContent({ title, links }) {
             <Title>{title}</Title>
             {links.map((item, index) => (
                 <Links key={index}>
-                    <CustomLink href={item.link}><span>{item.name}</span></CustomLink>
+                    <CustomLink href={item.link}>
+                        <span>{item.name}</span>
+                    </CustomLink>
                 </Links>
             ))}
         </Container>

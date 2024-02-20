@@ -4,7 +4,7 @@ import styled from "styled-components";
 function RoomButton() {
     return (
         <ButtonHolder>
-            <BookButton href="/How To Book">
+            <BookButton href="/HowToBook">
                 <span>BOOK</span> THIS ROOM
             </BookButton>
         </ButtonHolder>

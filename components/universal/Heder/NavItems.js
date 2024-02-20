@@ -3,8 +3,32 @@ import Dropdown from "./Dropdown";
 import Link from "next/link";
 
 function NavItems() {
-    let activities = ["Activities", "Nearby Attractions"];
-    let about = ["About Drežnica", "About Us"];
+    const activities = [
+        {
+            name: "Activities",
+            link: "Activities",
+
+        },
+        {
+            name: "Nearby Attractions",
+            link: "Attractions",
+
+        },
+    ];
+    const symbol = {
+        slash: "/",
+        hash: "#",
+    };
+    const about = [
+        {
+            name: "About Drežnica",
+            link: "About Drežnica",
+        },
+        {
+            name: "About Us",
+            link: "About Us",
+        },
+    ];
     const title = {
         home: "Home",
         howTo: "How To Book",
@@ -20,14 +44,18 @@ function NavItems() {
                 </span>
             </NavBarItem>
             <NavBarItem>
-                <Dropdown title="About Us" options={about} />
+                <Dropdown path={symbol.hash} title="About Us" options={about} />
             </NavBarItem>
             <NavBarItem>
-                <Dropdown title="Activities" options={activities} />
+                <Dropdown
+                    path={symbol.slash}
+                    title="Activities"
+                    options={activities}
+                />
             </NavBarItem>
             <NavBarItem>
                 <span>
-                    <Link href="/How To Book">{title.howTo}</Link>
+                    <Link href="/HowToBook">{title.howTo}</Link>
                 </span>
             </NavBarItem>
             <NavBarItem>

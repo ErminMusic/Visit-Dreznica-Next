@@ -1,4 +1,3 @@
-import Hero from "@/components/Home/Hero/Hero";
 import HomePage from "@/components/Home/HomePage/HomePage";
 import { Partytown } from "@builder.io/partytown/react";
 import Head from "next/head";

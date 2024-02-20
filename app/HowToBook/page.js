@@ -1,10 +1,10 @@
 "use client";
-import ContactUs from "@/components/Contact-Book/ContactUs";
+import HowToBook from "@/components/Contact-Book/HowToBook";
 
 export default function page() {
     return (
         <div>
-            <ContactUs />
+            <HowToBook />
         </div>
     );
 }
