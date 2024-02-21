@@ -15,7 +15,7 @@ export default function Home() {
                 <script
                     type="text/partytown"
                     dangerouslySetInnerHTML={{
-                        __html: "/* window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-F7SJPVW7G8'); */",
+                        __html: "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-F7SJPVW7G8');",
                     }}
                 />
             </Head>
