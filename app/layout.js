@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <html lang="en" suppressHydrationWarning={true}>
             <StyledComponentsRegistry>
                 <Head>
-                    <PlausibleProvider domain="visitdreznica.netlify.app" />
+                    <PlausibleProvider domain="https://visitdreznica.netlify.app/" />
                 </Head>
                 <body suppressHydrationWarning={true}>
                     <header>
