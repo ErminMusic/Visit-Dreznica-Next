@@ -5,7 +5,7 @@ import Script from "next/script";
 export default function Home() {
     return (
         <>
-            <Head>
+            <head>
                 <title>My App</title>
                 <Partytown debug={true} forward={["dataLayer.push"]} />
                 <Script
@@ -13,13 +13,13 @@ export default function Home() {
                     type="text/partytown"
                     async
                 />
-                <Script
+                <script
                     type="text/partytown"
                     dangerouslySetInnerHTML={{
                         __html: "/* window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-6TCDM52R17'); */",
                     }}
                 />
-            </Head>
+            </head>
             <main>
                 <HomePage />
             </main>
