@@ -19,18 +19,17 @@ export default function RootLayout({ children }) {
                 forward={["dataLayer.push"]}
             />
             <StyledComponentsRegistry>
-                <GoogleAnalyticTag>
-                    <body suppressHydrationWarning={true}>
-                        <header>
-                            <Header />
-                        </header>
-                        {children}
-                        <ScrollToTopButton />
-                        <footer>
-                            <Footer />
-                        </footer>
-                    </body>
-                </GoogleAnalyticTag>
+                <body suppressHydrationWarning={true}>
+                    <header>
+                        <Header />
+                    </header>
+                    {children}
+                    {/* <GoogleAnalyticTag></GoogleAnalyticTag> */}
+                    <ScrollToTopButton />
+                    <footer>
+                        <Footer />
+                    </footer>
+                </body>
             </StyledComponentsRegistry>
         </html>
     );

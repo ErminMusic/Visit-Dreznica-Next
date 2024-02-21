@@ -4,7 +4,6 @@ export default function useGoogleAnaltics() {
     useEffect(() => {
         if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
             console.log("[DEV]: Google Analytics are fat");
-            // return false;
         }
 
         if (document) {
@@ -14,7 +13,6 @@ export default function useGoogleAnaltics() {
                 "src",
                 "https://www.googletagmanager.com/gtag/js?id=G-6TCDM52R17"
             );
-            primaryS.setAttribute("async", "true");
 
             let s = d.createElement("script");
             s.type = "text/partytown";
