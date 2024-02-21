@@ -8,23 +8,16 @@ export const metadata = {
     description:
         "Drežnica near Mostart. Experience serene mountains, a picturesque river, and warm hospitality. Perfect for nature lovers seeking a peaceful getaway.",
 };
-import { Partytown } from "@builder.io/partytown/react";
-import GoogleAnalyticTag from "@/components/Functions/GoogleAnalyticTag";
 
 export default function RootLayout({ children }) {
     return (
         <html lang="en" suppressHydrationWarning={true}>
-            <Partytown
-                debug={process.env.NODE_ENV === "development"}
-                forward={["dataLayer.push"]}
-            />
             <StyledComponentsRegistry>
                 <body suppressHydrationWarning={true}>
                     <header>
                         <Header />
                     </header>
                     {children}
-                    {/* <GoogleAnalyticTag></GoogleAnalyticTag> */}
                     <ScrollToTopButton />
                     <footer>
                         <Footer />

@@ -1,10 +1,22 @@
 import HomePage from "@/components/Home/HomePage/HomePage";
+import { Partytown } from "@builder.io/partytown/react";
+import GoogleAnalyticTag from "@/components/Functions/GoogleAnalyticTag";
+import Head from "next/head";
+
 export default function Home() {
     return (
         <>
-            <main>
-                <HomePage />
-            </main>
+            <Head>
+                <Partytown
+                    debug={process.env.NODE_ENV === "development"}
+                    forward={["dataLayer.push"]}
+                />
+            </Head>
+            <GoogleAnalyticTag>
+                <main>
+                    <HomePage />
+                </main>
+            </GoogleAnalyticTag>
         </>
     );
 }
