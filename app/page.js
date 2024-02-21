@@ -12,11 +12,12 @@ export default function Home() {
                     forward={["dataLayer.push"]}
                 />
             </Head>
-            <GoogleAnalyticTag>
-                <main>
+
+            <main>
+                <GoogleAnalyticTag>
                     <HomePage />
-                </main>
-            </GoogleAnalyticTag>
+                </GoogleAnalyticTag>
+            </main>
         </>
     );
 }
