@@ -14,7 +14,7 @@ export default function useGoogleAnaltics() {
                 "src",
                 "https://www.googletagmanager.com/gtag/js?id=G-6TCDM52R17"
             );
-            // primaryS.setAttribute("async", "true")
+            primaryS.setAttribute("async", "true");
 
             let s = d.createElement("script");
             s.type = "text/partytown";
