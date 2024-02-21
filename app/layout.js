@@ -3,6 +3,8 @@ import "./globals.css";
 import StyledComponentsRegistry from "../lib/registry";
 import Footer from "@/components/universal/Footer/Footer";
 import ScrollToTopButton from "@/components/universal/ScrollButton/ScrollToTopButton";
+import Head from "next/head";
+import PlausibleProvider from "next-plausible";
 export const metadata = {
     title: "Visit Drežnica | Rent a Room",
     description:
@@ -14,6 +16,9 @@ export default function RootLayout({ children }) {
         <html lang="en" suppressHydrationWarning={true}>
             <StyledComponentsRegistry>
                 <body suppressHydrationWarning={true}>
+                    <Head>
+                        <PlausibleProvider domain="visitdreznica.netlify.app/" />
+                    </Head>
                     <header>
                         <Header />
                     </header>
