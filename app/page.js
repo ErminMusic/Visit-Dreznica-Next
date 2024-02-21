@@ -7,16 +7,21 @@ export default function Home() {
     return (
         <>
             <Head>
-                <Partytown
+                {/* <Partytown
                     debug={process.env.NODE_ENV === "development"}
                     forward={["dataLayer.push"]}
-                />
+                /> */}
+                <script
+                    defer
+                    data-domain="visitdreznica.netlify.app"
+                    src="https://plausible.io/js/script.js"
+                ></script>
             </Head>
 
             <main>
-                <GoogleAnalyticTag>
+                {/* <GoogleAnalyticTag> */}
                     <HomePage />
-                </GoogleAnalyticTag>
+                {/* </GoogleAnalyticTag> */}
             </main>
         </>
     );
