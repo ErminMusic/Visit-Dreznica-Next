@@ -31,7 +31,7 @@ const Room = ({ roomContent }) => {
                         <Carousel image={item.images} />
                     <ContentHolder>
                         <Content>
-                            <h3>{item.title}</h3>
+                            <span>{item.title}</span>
                             <RoomDescription>
                                 <p>{item.description}</p>
                             </RoomDescription>
@@ -90,8 +90,9 @@ const Content = styled.div`
     p {
         margin: 8px 0;
     }
-    h3 {
+    span {
         font-size: 18px;
+        font-weight: bold;
     }
 `;
 

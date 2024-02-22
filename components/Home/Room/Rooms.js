@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { RoomDetails } from "../../../data/RoomDetails";
-import Room from "./Room"
+import Room from "./Room";
 
 function Rooms() {
-    const mainTitle = "Choose a Room:";
+    const mainTitle = "Book a Room:";
     return (
         <Wrap id="Rooms">
             <Container>
@@ -11,7 +11,7 @@ function Rooms() {
                     <Title>{mainTitle}</Title>
                 </TitleHolder>
                 <ContentHolder>
-                        <Room roomContent={RoomDetails} />
+                    <Room roomContent={RoomDetails} />
                 </ContentHolder>
             </Container>
         </Wrap>
@@ -47,7 +47,7 @@ const TitleHolder = styled.div`
         padding: 0 0 12px 2%;
     }
 `;
-const Title = styled.h2`
+const Title = styled.h1`
     font-size: 28px;
 `;
 const ContentHolder = styled.div`

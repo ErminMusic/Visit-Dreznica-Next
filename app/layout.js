@@ -6,7 +6,7 @@ import ScrollToTopButton from "@/components/universal/ScrollButton/ScrollToTopBu
 export const metadata = {
     title: "Visit Drežnica | Rent a Room",
     description:
-        "Drežnica near Mostart. Experience serene mountains, a picturesque river, and warm hospitality. Perfect for nature lovers seeking a peaceful getaway.",
+        "Welcome to Visit Drežnica. Experience serene mountains, a picturesque river, and warm hospitality. Perfect for nature lovers seeking a peaceful getaway. Book a room here!",
 };
 import { GoogleAnalytics } from "@next/third-parties/google";
 
