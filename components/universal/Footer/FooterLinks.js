@@ -1,3 +1,4 @@
+
 import styled from "styled-components";
 import HeaderLogo from "../Heder/HeaderLogo";
 import FooterContent from "./FooterContent";

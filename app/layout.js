@@ -23,8 +23,8 @@ export default function RootLayout({ children }) {
                     <footer>
                         <Footer />
                     </footer>
-                    <GoogleAnalytics gaId="G-F7SJPVW7G8" />
                 </body>
+                <GoogleAnalytics gaId="G-F7SJPVW7G8" />
             </StyledComponentsRegistry>
             {/* [[redirects]]
 from = "/*"

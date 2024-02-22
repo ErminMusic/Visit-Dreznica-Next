@@ -1,4 +1,3 @@
-"use client";
 import styled from "styled-components";
 import TextHolder from "./TextHolder";
 import Buttons from "./Buttons";
@@ -12,12 +11,6 @@ function Hero() {
                 <ContentHolder>
                     <TextHolder />
                     <Buttons />
-                    {/* <a href="https://freetools.seobility.net/en/seocheck/visitdreznica.netlify.app">
-                        <img
-                            src="https://freetools.seobility.net/widget/widget.png?url=visitdreznica.netlify.app"
-                            alt="Seobility Score für visitdreznica.netlify.app"
-                        />
-                    </a> */}
                 </ContentHolder>
             </Container>
         </Wrap>
