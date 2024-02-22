@@ -8,6 +8,7 @@ export const metadata = {
     description:
         "Drežnica near Mostart. Experience serene mountains, a picturesque river, and warm hospitality. Perfect for nature lovers seeking a peaceful getaway.",
 };
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export default function RootLayout({ children }) {
     return (
@@ -22,8 +23,13 @@ export default function RootLayout({ children }) {
                     <footer>
                         <Footer />
                     </footer>
+                    <GoogleAnalytics gaId="G-F7SJPVW7G8" />
                 </body>
             </StyledComponentsRegistry>
+            {/* [[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200 */}
         </html>
     );
 }
