@@ -21,7 +21,7 @@ function Review({ guestInfo }) {
     return (
         <Wrap>
             <TitleHolder>
-                <h2>See what our guests loved the most:</h2>
+                <span>See what our guests loved the most:</span>
             </TitleHolder>
             <ReviewSlider list={guestInfo} />
         </Wrap>
@@ -43,7 +43,8 @@ const Wrap = styled.div`
 `;
 const TitleHolder = styled.div`
     width: 80%;
-    h2 {
+    span {
         font-size: 28px;
+        font-weight: bold;
     }
 `;

@@ -6,7 +6,7 @@ function Galery() {
     return (
         <Wrap>
             <TitleHolder>
-                <h2>Gallery:</h2>
+                <span>Gallery:</span>
             </TitleHolder>
                 <GalerySlider images={GaleryImage} />
         </Wrap>
@@ -28,11 +28,11 @@ const Wrap = styled.div`
         padding: 36px 0 60px 0;
     }
 `;
-// const Title = styled.h2``;
 const TitleHolder = styled.div`
     margin: 0 0 16px 0;
     width: 80%;
-    h2 {
+    span {
         font-size: 28px;
+        font-weight: bold;
     }
 `;

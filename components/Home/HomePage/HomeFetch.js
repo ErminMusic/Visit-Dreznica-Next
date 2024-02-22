@@ -16,7 +16,7 @@ function HomeFetch() {
         titleBold: "Why you should ",
         generalDescription: [
             {
-                __html: `If you're <b>drawn to the serene beauty of nature and crave an escape from humdrum routine and daily stress,</b> Drežnica is the place for you.\n\n`,
+                __html: `If you're <b>drawn to the serene beauty of nature</b> and <b>crave an escape from humdrum routine and daily stress</b>, Drežnica is the place for you.\n\n`,
             },
             {
                 __html: `Surrounded by breathtaking mountains with a tranquil emerald river going through and untouched nature stretching as far as the eye can see…\n\n`,

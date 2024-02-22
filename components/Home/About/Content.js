@@ -47,10 +47,12 @@ function Content({ content, title, titleBold }) {
 
     return (
         <ContentHolder>
-            <h2>
-                <span>{titleBold}</span>
-                {title}
-            </h2>
+            {(title || titleBold) && (
+                <h2>
+                    {titleBold && <span>{titleBold}</span>}
+                    {title}
+                </h2>
+            )}
             {renderContent()}
         </ContentHolder>
     );
@@ -81,7 +83,7 @@ const ContentHolder = styled.div`
     @media (max-width: 500px) {
         width: 100%;
     }
-    p{
+    p {
         margin: 16px 0 0 0;
     }
 `;

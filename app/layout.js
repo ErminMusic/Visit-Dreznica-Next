@@ -13,6 +13,9 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 export default function RootLayout({ children }) {
     return (
         <html lang="en" suppressHydrationWarning={true}>
+            <head>
+                <link rel="icon" href="/Icons/Logo.webp" sizes="32x32" />
+            </head>
             <StyledComponentsRegistry>
                 <body suppressHydrationWarning={true}>
                     <header>
@@ -25,7 +28,7 @@ export default function RootLayout({ children }) {
                     </footer>
                 </body>
             </StyledComponentsRegistry>
-            <GoogleAnalytics gaId="G-F7SJPVW7G8" defer/>
+            <GoogleAnalytics gaId="G-F7SJPVW7G8" />
         </html>
     );
 }
