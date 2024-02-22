@@ -24,12 +24,8 @@ export default function RootLayout({ children }) {
                         <Footer />
                     </footer>
                 </body>
-                <GoogleAnalytics gtmId="G-F7SJPVW7G8" />
             </StyledComponentsRegistry>
-            {/* [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200 */}
+            <GoogleAnalytics gaId="G-F7SJPVW7G8" />
         </html>
     );
 }
