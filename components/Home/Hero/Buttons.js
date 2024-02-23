@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styled from "styled-components";
 
 function Buttons() {
@@ -28,7 +27,7 @@ const ButtonHolder = styled.div`
     display: flex;
     flex-direction: column;
 `;
-const CustomLink = styled(Link)`
+const CustomLink = styled.a`
     text-decoration: none;
     border-radius: 10px;
     color: white;

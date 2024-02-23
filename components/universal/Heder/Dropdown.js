@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import PropTypes from "prop-types";
-import Link from "next/link";
 
 function Dropdown({ title, options }) {
     Dropdown.propTypes = {
@@ -77,7 +76,7 @@ const Container = styled.div`
         background: #4b7376;
     }
 `;
-const DropOptions = styled(Link)`
+const DropOptions = styled.a`
     padding: 20px 15px;
     text-decoration: none;
     color: white;

@@ -30,7 +30,7 @@ const TextHolder = ({ date, title, description, disliked }) => {
                 <br />
                 {date}
             </p>
-            <h2>{title}</h2>
+            <span>{title}</span>
             <div style={showDescriptionStyle}>
                 <span>Liked:</span>
                 {paragraphs}
@@ -52,8 +52,9 @@ const TextContainer = styled.div`
     p {
         margin: 8px 0;
     }
-    h2 {
+    span {
         font-size: 28px;
+        font-weight: bold;
         margin: 14px 0;
     }
     div {
@@ -64,8 +65,6 @@ const TextContainer = styled.div`
         }
     }
 `;
-// const Description = styled.p``;
-
 const ReadMoreButton = styled.button`
     background: none;
     border: none;
@@ -77,4 +76,3 @@ const ReadMoreButton = styled.button`
     outline: none;
     font-size: 18px;
 `;
-// const Title = styled.h2``;

@@ -19,13 +19,25 @@ function NavItems() {
         FAQ: "FAQ",
         Contact: "Contact",
     };
-
+    const about = [
+        {
+            name: "About Drežnica",
+            link: "#AboutDreznica",
+        },
+        {
+            name: "About Us",
+            link: "#AboutUs",
+        },
+    ];
     return (
         <Container>
             <NavBarItem>
                 <span>
                     <Link href="/">{title.home}</Link>
                 </span>
+            </NavBarItem>
+            <NavBarItem>
+                <Dropdown title="About Us" options={about} />
             </NavBarItem>
             <NavBarItem>
                 <Dropdown title="Activities" options={activities} />
