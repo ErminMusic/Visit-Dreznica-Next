@@ -47,10 +47,10 @@ function HomeFetch() {
                 __html: `You can take a boat <b>ride, kayak, or swim</b> at the meeting point of two natural wonders...\n\n`,
             },
             {
-                __html: `The river Drežanka gracefully converges with the expansive Neretva Lake, creating a harmonious union where flowing waters meet still expanses.\n\n`,
+                __html: `<b>The river Drežanka gracefully converges with the expansive Neretva Lake</b>, creating a harmonious union where flowing waters meet still expanses.\n\n`,
             },
             {
-                __html: `Surrounded by lush vegetation and framed by towering mountains, <b>this confluence exudes a sense of peacefulness and serenity.</b>\n\n`,
+                __html: `Surrounded by lush vegetation and framed by towering mountains, this confluence exudes a sense of peacefulness and serenity.\n\n`,
             },
         ],
         alter: "About Image",
