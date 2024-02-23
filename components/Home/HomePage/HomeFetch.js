@@ -5,7 +5,9 @@ const About = dynamic(() => import("../About/About"));
 const Strip = dynamic(() => import("../Strip/Strip"));
 const RoomEquipment = dynamic(() => import("../RoomEquipment/RoomEquipment"));
 const Rooms = dynamic(() => import("../Room/Rooms"));
-const Activities = dynamic(() => import("../Activites-Attractions/Activitie-Attraction"));
+const Activities = dynamic(() =>
+    import("../Activites-Attractions/Activitie-Attraction")
+);
 const Review = dynamic(() => import("../ReviewSlider/Review"));
 const AboutUs = dynamic(() => import("../About/AboutUs"));
 const Galery = dynamic(() => import("../Galery/Galery"));
@@ -47,7 +49,7 @@ function HomeFetch() {
                 __html: `You can take a boat <b>ride, kayak, or swim</b> at the meeting point of two natural wonders...\n\n`,
             },
             {
-                __html: `<b>The river Drežanka gracefully converges with the expansive Neretva Lake</b>, creating a harmonious union where flowing waters meet still expanses.\n\n`,
+                __html: `The river <b>Drežanka gracefully converges with the expansive Neretva Lake</b>, creating a harmonious union where flowing waters meet still expanses.\n\n`,
             },
             {
                 __html: `Surrounded by lush vegetation and framed by towering mountains, this confluence exudes a sense of peacefulness and serenity.\n\n`,
