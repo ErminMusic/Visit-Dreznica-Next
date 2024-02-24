@@ -1,11 +1,14 @@
 import styled from "styled-components";
 import Body from "./Body";
 import Title from "./Title";
-import Navbar from "../FAQ/QuestionNavbar";
+import Navbar from "../FAQ/Navbar";
 import { AttractionDetailList } from "../../data/ActivitiesDetail";
 
 function Attractions() {
-    const activityNames = AttractionDetailList.map((activity) => activity.name);
+    const activityNames = AttractionDetailList.map((activity) => ({
+        name: activity.linkName,
+        link: activity.link,
+    }));
     return (
         <Container>
             <Title title="Nearby Attractions" />
@@ -25,4 +28,5 @@ const Container = styled.div`
     align-items: center;
     width: 100%;
     color: #525252;
+    scroll-behavior: smooth;
 `;

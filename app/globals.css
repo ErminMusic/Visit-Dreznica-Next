@@ -9,6 +9,7 @@
     -moz-user-drag: none;
     -o-user-drag: none;
     -user-drag: none;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -19,6 +20,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
+    scroll-behavior: smooth;
 }
 
 footer {

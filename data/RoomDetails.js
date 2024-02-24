@@ -6,7 +6,7 @@ export const RoomDetails = [
         bed: "1 Single Bed",
         size: "10sqm",
         description:
-            "Designed for solo travelers, this room boasts a stunning view of the emerald river and garden.Wake up to the tranquil sight of nature outside your window, perfect for moments of peaceful contemplation.",
+            "Designed for solo travelers, this room boasts a stunning view of the emerald river and garden. Wake up to the tranquil sight of nature outside your window, perfect for moments of peaceful contemplation.",
         images: [
             "/General/RoomOne.webp",
             "/General/RoomOne.webp",
@@ -48,7 +48,7 @@ export const RoomDetails = [
         title: "Quadruple Room with Balcony",
         people: "4 Adults",
         view: "Lake View",
-        bed: "3 Single, 1 Double and 1 Sofa Bed",
+        bed: "3 Single, 1 Double, and 1 Sofa Bed",
         size: "20sqm",
         description:
             "Ideal for families seeking relaxation, this spacious room features a private balcony boasting stunning views of the tranquil lake, providing the perfect backdrop for unforgettable moments together.",

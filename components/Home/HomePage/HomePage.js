@@ -15,4 +15,5 @@ export default HomePage;
 
 const Container = styled.div`
     overflow: hidden;
+    scroll-margin-top: 80px;
 `;

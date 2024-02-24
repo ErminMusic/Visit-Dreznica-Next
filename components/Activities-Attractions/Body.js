@@ -10,7 +10,11 @@ function Body({ content }) {
                 <Container key={index} $isReversed={!item.side}>
                     <Content $isReversed={!item.side}>
                         <SideImage img={item.image} alt={item.alter} />
-                        <Text name={item.name} des={item.description} />
+                        <Text
+                            link={item.link}
+                            name={item.name}
+                            des={item.description}
+                        />
                     </Content>
                 </Container>
             ))}
@@ -26,6 +30,7 @@ Body.propTypes = {
             alter: PropTypes.string.isRequired,
             side: PropTypes.bool.isRequired,
             description: PropTypes.string.isRequired,
+            link: PropTypes.string.isRequired,
         })
     ).isRequired,
 };

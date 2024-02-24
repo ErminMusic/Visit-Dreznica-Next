@@ -27,7 +27,7 @@ function HomeFetch() {
                 __html: `Drežnica offers an <b>unforgettable blend of adventure and peace.</b>\n\n`,
             },
             {
-                __html: `After visiting Drežnica, you'll be <b>eager to share your exiting adventures with friends and family,</b> captivating them with tales of discovering hidden gems in its untouched wilderness.\n\n`,
+                __html: `After visiting Drežnica, you'll be <b>eager to share your exciting adventures with friends and family,</b> captivating them with tales of discovering hidden gems in its untouched wilderness.\n\n`,
             },
         ],
         mountainDescription: [
@@ -56,7 +56,6 @@ function HomeFetch() {
             },
         ],
         alter: "About Image",
-        image: "/General/About.webp",
     };
     const AboutVisitDreznica = {
         title: "Us",

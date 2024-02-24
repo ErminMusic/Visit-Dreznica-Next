@@ -24,13 +24,17 @@ function About({ content }) {
                 })
             ).isRequired,
             alter: PropTypes.string.isRequired,
-            image: PropTypes.node.isRequired,
         }).isRequired,
     };
+
+    const generalImage = "/About/About.webp";
+    const mountainImage = "/About/TwoMountains.webp";
+    const riverImage = "/About/River.webp";
+
     return (
         <Wrap id="AboutDreznica">
             <Container>
-                <AboutImage image={content.image} alter={content.alter} />
+                <AboutImage image={generalImage} alter={content.alter} />
                 <Content
                     title={content.title}
                     titleBold={content.titleBold}
@@ -38,7 +42,7 @@ function About({ content }) {
                 />
             </Container>
             <FlipContainer>
-                <AboutImage image={content.image} alter={content.alter} />
+                <AboutImage image={mountainImage} alter={content.alter} />
                 <Content
                     title=""
                     titleBold=""
@@ -46,7 +50,7 @@ function About({ content }) {
                 />
             </FlipContainer>
             <Container>
-                <AboutImage image={content.image} alter={content.alter} />
+                <AboutImage image={riverImage} alter={content.alter} />
                 <Content
                     title=""
                     titleBold=""

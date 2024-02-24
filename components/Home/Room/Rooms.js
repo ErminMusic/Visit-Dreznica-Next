@@ -27,6 +27,7 @@ const Wrap = styled.div`
     padding: 36px 0 0px 0;
     display: flex;
     justify-content: center;
+    scroll-margin-top: 80px;
 `;
 const Container = styled.div`
     width: 100%;

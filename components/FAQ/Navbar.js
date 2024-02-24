@@ -10,8 +10,8 @@ function Navbar({ category }) {
             <Container>
                 {category.map((item, index) => (
                     <div key={index}>
-                        <NavItem href={`#${item}`}>
-                            <span>{item}</span>
+                        <NavItem href={`#${item.link}`}>
+                            <span>{item.name}</span>
                         </NavItem>
                     </div>
                 ))}
@@ -28,7 +28,7 @@ const Wrap = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0fff0;
+    background-color: #D4EFD4;
     position: sticky;
     top: 80px;
     z-index: 90;

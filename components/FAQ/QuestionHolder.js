@@ -55,8 +55,15 @@ const Container = styled.div`
     flex-direction: column;
     color: #525252;
     background: #f8f5df;
-        @media (max-width: 850px) {
+    scroll-margin-top: 140px;
+    @media (max-width: 850px) {
         width: 95%;
+    }
+    @media (max-width: 1030px) {
+        scroll-margin-top: 200px;
+    }
+    @media (max-width: 540px) {
+        scroll-margin-top: 230px;
     }
 `;
 

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Title from "./Title";
 import QuestionHolder from "./QuestionHolder";
-import Navbar from "./QuestionNavbar";
+import Navbar from "./Navbar";
 import Link from "next/link";
 
 function FAQ() {
@@ -151,11 +151,26 @@ function FAQ() {
         ],
     };
     const Categories = [
-        "House Rules",
-        "Rent A Boat",
-        "Swimming",
-        "Location",
-        "Hiking",
+        {
+            name: "House Rules",
+            link: "House Rules",
+        },
+        {
+            name: "Rent A Boat",
+            link: "Rent A Boat",
+        },
+        {
+            name: "Swimming",
+            link: "Swimming",
+        },
+        {
+            name: "Location",
+            link: "Location",
+        },
+        {
+            name: "Hiking",
+            link: "Hiking",
+        },
     ];
     return (
         <Container>

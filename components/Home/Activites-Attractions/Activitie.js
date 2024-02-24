@@ -28,7 +28,7 @@ function Activitie({ list }) {
                     <ContentHolder>
                         <h2>{item.name}</h2>
                     </ContentHolder>
-                    <Button href={item.link}>
+                    <Button href={`${item.link}`}>
                         <span>{item.name}</span>
                         LEARN MORE
                     </Button>
@@ -41,7 +41,7 @@ function Activitie({ list }) {
 export default Activitie;
 
 const Container = styled.div`
-    width: 45%;
+    width: 48%;
     color: #525252;
     margin: 12px 0 36px 0;
     display: flex;
@@ -53,9 +53,11 @@ const Container = styled.div`
     }
 `;
 const CustomImage = styled(Image)`
-    width: 70%;
+    width: 80%;
     height: 100%;
-    border-radius: 16px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
     @media (max-width: 1100px) {
         width: 85%;
         height: 85%;
@@ -71,13 +73,19 @@ const CustomImage = styled(Image)`
 `;
 const ContentHolder = styled.div`
     margin: 12px 0;
+    max-width: 90%;
+
+    h2 {
+        font-size: 23px;
+    }
 `;
 const Button = styled(Link)`
     text-decoration: none;
     border-radius: 10px;
     background-color: rgb(80, 125, 127);
     text-align: center;
-    width: 70%;
+    width: 80%;
+    max-height: 52px;
     padding: 16px 0px;
     cursor: pointer;
     font-weight: bold;
