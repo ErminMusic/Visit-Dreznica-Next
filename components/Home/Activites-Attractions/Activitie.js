@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import Image from "next/image";
-import Link from "next/link";
 
 function Activitie({ list }) {
     Activitie.propTypes = {
@@ -80,7 +79,7 @@ const ContentHolder = styled.div`
         font-size: 23px;
     }
 `;
-const Button = styled(Link)`
+const Button = styled.a`
     text-decoration: none;
     border-radius: 10px;
     background-color: rgb(80, 125, 127);
