@@ -28,7 +28,7 @@ const Wrap = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D4EFD4;
+    background-color: #d4efd4;
     position: sticky;
     top: 80px;
     z-index: 90;
@@ -51,8 +51,16 @@ const Container = styled.div`
 const NavItem = styled.a`
     font-weight: bold;
     color: #525252;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-size: 16px;
+    height: 100%;
+    @media (max-width: 700px) {
+        justify-content: start;
+    }
+
     span {
         letter-spacing: 1.5px;
         text-transform: uppercase;

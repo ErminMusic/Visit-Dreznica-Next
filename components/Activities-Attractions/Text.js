@@ -21,12 +21,12 @@ const TextHolder = styled.div`
     scroll-behavior: smooth;
     h1 {
         padding: 12px 0 16px 0;
-        scroll-margin-top: 140px;
+        scroll-margin-top: 160px;
         @media (max-width: 701px) {
-            scroll-margin-top: 200px;
+            scroll-margin-top: 220px;
         }
         @media (max-width: 355px) {
-            scroll-margin-top: 290px;
+            scroll-margin-top: 310px;
         }
     }
     @media (max-width: 700px) {

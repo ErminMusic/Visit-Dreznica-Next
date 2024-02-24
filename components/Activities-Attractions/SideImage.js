@@ -39,4 +39,16 @@ const ImageHolder = styled.div`
 const CustomImage = styled(Image)`
     width: 100%;
     height: 100%;
+    min-width: 300px;
+    min-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    @media (max-width: 850px) {
+        min-width: 250px;
+        min-height: 250px;
+    }
+    @media (max-width: 300px) {
+        min-width: 200px;
+        min-height: 200px;
+    }
 `;
