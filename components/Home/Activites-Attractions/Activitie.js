@@ -11,6 +11,7 @@ function Activitie({ list }) {
                 image: PropTypes.node.isRequired,
                 name: PropTypes.string.isRequired,
                 link: PropTypes.string.isRequired,
+                linkTo: PropTypes.string.isRequired,
             })
         ).isRequired,
     };
@@ -28,7 +29,7 @@ function Activitie({ list }) {
                     <ContentHolder>
                         <h2>{item.name}</h2>
                     </ContentHolder>
-                    <Button href={`${item.link}`}>
+                    <Button href={`${item.link + item.linkTo}`}>
                         <span>{item.name}</span>
                         LEARN MORE
                     </Button>
