@@ -66,7 +66,6 @@ function HomeFetch() {
             },
         ],
         alter: "About Image",
-        image: "/General/AboutVisitDreznica.webp",
     };
     return (
         <Container>

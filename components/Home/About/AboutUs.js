@@ -14,14 +14,13 @@ function AboutUs({ content }) {
                 })
             ).isRequired,
             alter: PropTypes.string.isRequired,
-            image: PropTypes.node.isRequired,
         }).isRequired,
     };
-
+    const AboutUsImage = "/About/AboutUs.webp";
     return (
         <Wrap id="AboutUs">
             <Container>
-                <AboutImage image={content.image} alter={content.alter} />
+                <AboutImage image={AboutUsImage} alter={content.alter} />
                 <Content
                     title={content.title}
                     titleBold={content.titleBold}
