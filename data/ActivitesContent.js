@@ -54,13 +54,6 @@ export const AttractionList = [
         linkTo: "#Bunkers",
     },
     {
-        image: Stecci,
-        name: "Stećci",
-        alter: "Stećci",
-        link: "Attractions",
-        linkTo: "#Stecci",
-    },
-    {
         image: Waterfall,
         name: "Waterfall",
         alter: "Veliki Morvan Waterfall",
@@ -73,5 +66,12 @@ export const AttractionList = [
         alter: "Veliki Morvan Waterfall",
         link: "Attractions",
         linkTo: "#Waterfall",
+    },
+    {
+        image: Stecci,
+        name: "Stećci",
+        alter: "Stećci",
+        link: "Attractions",
+        linkTo: "#Stecci",
     },
 ];

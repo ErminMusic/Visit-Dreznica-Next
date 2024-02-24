@@ -73,16 +73,6 @@ export const AttractionDetailList = [
             "6Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet laborum maiores labore animi, similique soluta pariatur ullam nisi consectetur sunt, eos explicabo ut id quaerat quidem, rerum amet voluptate?",
     },
     {
-        image: Stecci,
-        name: "Stećci",
-        linkName: "Stećci",
-        alter: "Stećci",
-        side: true,
-        link: "Stecci",
-        description:
-            "7Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet laborum maiores labore animi, similique soluta pariatur ullam nisi consectetur sunt, eos explicabo ut id quaerat quidem, rerum amet voluptate?",
-    },
-    {
         image: Waterfall,
         name: "Veliki Movram Waterfall",
         linkName: "Movram Waterfall",
@@ -91,5 +81,15 @@ export const AttractionDetailList = [
         link: "Waterfall",
         description:
             "8Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet laborum maiores labore animi, similique soluta pariatur ullam nisi consectetur sunt, eos explicabo ut id quaerat quidem, rerum amet voluptate?",
+    },
+    {
+        image: Stecci,
+        name: "Stećci",
+        linkName: "Stećci",
+        alter: "Stećci",
+        side: true,
+        link: "Stecci",
+        description:
+            "7Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet laborum maiores labore animi, similique soluta pariatur ullam nisi consectetur sunt, eos explicabo ut id quaerat quidem, rerum amet voluptate?",
     },
 ];
