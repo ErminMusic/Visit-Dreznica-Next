@@ -62,7 +62,7 @@ export const AttractionList = [
     },
     {
         image: Waterfall2,
-        name: "Waterfall",
+        name: "Movran Waterfall",
         alter: "Veliki Morvan Waterfall",
         link: "Attractions",
         linkTo: "#Waterfall",

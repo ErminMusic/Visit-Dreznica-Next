@@ -14,6 +14,8 @@ function Body({ content }) {
                             link={item.link}
                             name={item.name}
                             des={item.description}
+                            note={item.note}
+                            noteDes={item.noteDescription}
                         />
                     </Content>
                 </Container>
@@ -30,6 +32,8 @@ Body.propTypes = {
             side: PropTypes.bool.isRequired,
             description: PropTypes.string.isRequired,
             link: PropTypes.string.isRequired,
+            note: PropTypes.string.isRequired,
+            noteDescription: PropTypes.string.isRequired,
         })
     ).isRequired,
 };
