@@ -1,14 +1,16 @@
 import styled from "styled-components";
-import { GaleryImage } from "../../../data/GaleryImages";
+import { GaleryImage as RawGaleryImage } from "../../../data/GaleryImages";
 import GalerySlider from "./GalerySlider"
+import { useMemo } from "react";
 
 function Galery() {
+    const GaleryImage = useMemo(() => RawGaleryImage, []);
     return (
         <Wrap>
             <TitleHolder>
                 <span>Gallery:</span>
             </TitleHolder>
-                <GalerySlider images={GaleryImage} />
+                <GalerySlider images={RawGaleryImage} />
         </Wrap>
     );
 }

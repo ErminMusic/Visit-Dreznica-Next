@@ -1,37 +1,46 @@
 import styled from "styled-components";
 import {
-    RoomsInclude,
-    OutdoorsInclude,
-    ServiceInclude,
-    BathroomInclude,
+    RoomsInclude as RawRoomsInclude,
+    OutdoorsInclude as RawOutdoorsInclude,
+    ServiceInclude as RawServiceInclude,
+    BathroomInclude as RawBathroomInclude,
 } from "../../../data/IncludeIcons";
 import EquipmentIcons from "./EquipmentIcons";
+import { useMemo } from "react";
 
 function RoomEquipment() {
-    const room = {
+    const room = useMemo(() => ({
         normal: "Include:",
         bold: "All Rooms ",
-    };
-    const outdoor = {
+    }), []);
+
+    const outdoor = useMemo(() => ({
         normal: "",
         bold: "Outdoors:",
-    };
-    const bathroom = {
+    }), []);
+
+    const bathroom = useMemo(() => ({
         normal: "Includes: ",
         bold: "The Bathroom ",
-    };
-    const service = {
+    }), []);
+
+    const service = useMemo(() => ({
         normal: "",
         bold: "Services:",
-    };
+    }), []);
+
+    const RoomsInclude = useMemo(() => RawRoomsInclude, []);
+    const OutdoorsInclude = useMemo(() => RawOutdoorsInclude, []);
+    const ServiceInclude = useMemo(() => RawServiceInclude, []);
+    const BathroomInclude = useMemo(() => RawBathroomInclude, []);
 
     return (
         <Wrap>
             <Container>
-                <EquipmentIcons title={room} content={RoomsInclude} />
-                <EquipmentIcons title={outdoor} content={OutdoorsInclude} />
-                <EquipmentIcons title={service} content={ServiceInclude} />
-                <EquipmentIcons title={bathroom} content={BathroomInclude} />
+                <EquipmentIcons title={room} content={RawRoomsInclude} />
+                <EquipmentIcons title={outdoor} content={RawOutdoorsInclude} />
+                <EquipmentIcons title={service} content={RawServiceInclude} />
+                <EquipmentIcons title={bathroom} content={RawBathroomInclude} />
             </Container>
         </Wrap>
     );

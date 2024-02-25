@@ -1,16 +1,19 @@
+import { useMemo } from "react";
 import styled from "styled-components";
-import { GuestReview, GuestReviewSecond } from "../../../data/GuestReview";
 import dynamic from "next/dynamic";
+import { GuestReview as RawGuestReview, GuestReviewSecond as RawGuestReviewSecond } from "../../../data/GuestReview";
 const About = dynamic(() => import("../About/About"));
 const Strip = dynamic(() => import("../Strip/Strip"));
 const RoomEquipment = dynamic(() => import("../RoomEquipment/RoomEquipment"));
 const Rooms = dynamic(() => import("../Room/Rooms"));
-const Activities = dynamic(() => import("../Activites-Attractions/Activitie-Attraction"));
+const Activities = dynamic(() =>import("../Activites-Attractions/Activitie-Attraction"));
 const Review = dynamic(() => import("../ReviewSlider/Review"));
 const AboutUs = dynamic(() => import("../About/AboutUs"));
 const Galery = dynamic(() => import("../Galery/Galery"));
 
 function HomeFetch() {
+    const GuestReview = useMemo(() => RawGuestReview, []);
+    const GuestReviewSecond = useMemo(() => RawGuestReviewSecond, []);
     const AboutDreznica = {
         title: "visit Drežnica",
         titleBold: "Why you should ",
@@ -77,24 +80,18 @@ function HomeFetch() {
     return (
         <Container>
             <About content={AboutDreznica} />
-            <Strip guestInfo={GuestReview} />
+            <Strip guestInfo={RawGuestReview} />
             <RoomEquipment />
             <Rooms />
             <Activities />
-            <Review guestInfo={GuestReviewSecond} />
+            <Review guestInfo={RawGuestReviewSecond} />
             <AboutUs content={AboutVisitDreznica} />
             <Galery />
         </Container>
     );
 }
-
 export default HomeFetch;
 
 const Container = styled.div`
     overflow: hidden;
 `;
-
-
-
-
-

@@ -1,8 +1,14 @@
 import styled from "styled-components";
-import { ActivitiesList, AttractionList } from "../../../data/ActivitesContent";
-import Activitie from "./Activitie"
+import {
+    ActivitiesList as RawActivitiesList,
+    AttractionList as RawAttractionList,
+} from "../../../data/ActivitesContent";
+import Activitie from "./Activitie";
+import { useMemo } from "react";
 
 const Activities = () => {
+    const ActivitiesList = useMemo(() => RawActivitiesList, []);
+    const AttractionList = useMemo(() => RawAttractionList, []);
     return (
         <Wrap>
             <Container>
@@ -10,18 +16,18 @@ const Activities = () => {
                     <Title>Activities:</Title>
                 </TitleHolder>
                 <ActivitiesHolder>
-                        <Activitie list={ActivitiesList} />
+                    <Activitie list={RawActivitiesList} />
                 </ActivitiesHolder>
                 <TitleHolder>
                     <Title>Nearby Attractions:</Title>
                 </TitleHolder>
                 <ActivitiesHolder>
-                        <Activitie list={AttractionList} />
+                    <Activitie list={RawAttractionList} />
                 </ActivitiesHolder>
             </Container>
         </Wrap>
     );
-}
+};
 
 export default Activities;
 

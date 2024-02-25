@@ -1,8 +1,10 @@
 import styled from "styled-components";
-import { RoomDetails } from "../../../data/RoomDetails";
+import { RoomDetails as RawRoomDetail } from "../../../data/RoomDetails";
 import Room from "./Room";
+import { useMemo } from "react";
 
 function Rooms() {
+    const RoomDetails = useMemo(() => RawRoomDetail, []);
     const mainTitle = "Book a Room:";
     return (
         <Wrap id="Rooms">
@@ -11,7 +13,7 @@ function Rooms() {
                     <Title>{mainTitle}</Title>
                 </TitleHolder>
                 <ContentHolder>
-                    <Room roomContent={RoomDetails} />
+                    <Room roomContent={RawRoomDetail} />
                 </ContentHolder>
             </Container>
         </Wrap>
