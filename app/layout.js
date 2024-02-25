@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Header from "@/components/universal/Heder/Header";
 import "./globals.css";
 import StyledComponentsRegistry from "../lib/registry";
@@ -8,7 +9,6 @@ export const metadata = {
     description:
         "Welcome to Drežnica. Experience serene mountains, a picturesque river, and warm hospitality. Perfect for nature lovers seeking a getaway. Book a room here!",
 };
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 export default function RootLayout({ children }) {
     return (

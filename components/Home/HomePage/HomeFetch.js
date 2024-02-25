@@ -56,8 +56,8 @@ function HomeFetch() {
         alter: "About Image",
     };
     const AboutVisitDreznica = {
-        title: "Us",
-        titleBold: "About ",
+        title: "",
+        titleBold: "About Us",
         aboutUsDescription: [
             {
                 __html: `Welcome to Visit Drežnica! We are a small family-owned and operated business, <b>serving tourists for over 8 years.</b>`,

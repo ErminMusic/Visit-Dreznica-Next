@@ -4,7 +4,7 @@ import Title from "./Title";
 import Navbar from "../FAQ/Navbar";
 import { AttractionDetailList } from "../../data/ActivitiesDetail";
 
-function Attractions() {
+const Attractions = () => {
     const activityNames = AttractionDetailList.map((activity) => ({
         name: activity.linkName,
         link: activity.link,
