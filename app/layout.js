@@ -15,6 +15,32 @@ export default function RootLayout({ children }) {
         <html lang="en" suppressHydrationWarning={true}>
             <head>
                 <link rel="icon" href="/Icons/Logo.webp" sizes="32x32" />
+                <link rel="preload" href="/Background/Hero.webp" as="image" />
+                <link
+                    rel="preload"
+                    href="/Background/HeroPhone.webp"
+                    as="image"
+                />
+                <link
+                    rel="preload"
+                    href="/Background/ContactBG.webp"
+                    as="image"
+                />
+                <link
+                    rel="preload"
+                    href="/Background/ContactPhone.webp"
+                    as="image"
+                />
+                <link
+                    rel="preload"
+                    href="/Background/HowToBookBG.webp"
+                    as="image"
+                />
+                <link
+                    rel="preload"
+                    href="/Background/HowToBookPhone.webp"
+                    as="image"
+                />
             </head>
             <StyledComponentsRegistry>
                 <body suppressHydrationWarning={true}>

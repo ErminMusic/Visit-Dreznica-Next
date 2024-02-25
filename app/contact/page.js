@@ -1,10 +1,9 @@
-"use client";
 import ContactUs from "@/components/Contact-Book/ContactUs";
 
 export default function page() {
     return (
-        <div>
+        <main>
             <ContactUs />
-        </div>
+        </main>
     );
 }

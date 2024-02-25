@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import Activities from "@/components/Activities-Attractions/Activities";
 
 export default function page() {
     return (
-        <div>
+        <main>
             <Activities />
-        </div>
+        </main>
     );
 }
