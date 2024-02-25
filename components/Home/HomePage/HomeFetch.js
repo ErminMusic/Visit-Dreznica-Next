@@ -81,8 +81,8 @@ function HomeFetch() {
         <Container>
             <About content={AboutDreznica} />
             <Strip guestInfo={RawGuestReview} />
-            <RoomEquipment />
-            <Rooms />
+            {/* <RoomEquipment />
+            <Rooms /> */}
             <Activities />
             <Review guestInfo={RawGuestReviewSecond} />
             <AboutUs content={AboutVisitDreznica} />
