@@ -21,7 +21,6 @@ function Body({ content }) {
         </>
     );
 }
-
 Body.propTypes = {
     content: PropTypes.arrayOf(
         PropTypes.shape({
@@ -46,7 +45,6 @@ const Container = styled.div`
     background-color: ${({ $isReversed }) =>
         $isReversed ? "#f8f5df" : "#f0fff0"};
 `;
-
 const Content = styled.div`
     width: 80%;
     margin: 12px 0;

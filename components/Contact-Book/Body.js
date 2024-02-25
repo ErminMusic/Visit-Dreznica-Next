@@ -53,7 +53,6 @@ const Container = styled.div`
     color: white;
     padding: 28px 0;
 `;
-
 const ContentHolder = styled.div`
     width: 80%;
     height: 80%;
@@ -69,7 +68,6 @@ const ImageHolder = styled.div`
         display: none;
     }
 `;
-
 const Content = styled.div`
     width: 50%;
     padding: 16px 24px;

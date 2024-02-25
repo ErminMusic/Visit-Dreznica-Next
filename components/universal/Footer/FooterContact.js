@@ -24,7 +24,6 @@ function FooterContact() {
                 console.error("Could not copy text: ", error);
             });
     };
-
     return (
         <Container>
             <Title>{contact.title}</Title>

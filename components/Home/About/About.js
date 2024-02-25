@@ -26,11 +26,9 @@ function About({ content }) {
             alter: PropTypes.string.isRequired,
         }).isRequired,
     };
-
     const generalImage = "/About/About.webp";
     const mountainImage = "/About/TwoMountains.webp";
     const riverImage = "/About/River.webp";
-
     return (
         <Wrap id="AboutDreznica">
             <Container>

@@ -13,7 +13,6 @@ function Buttons() {
             <CustomLink href="#Rooms">
                 {buttonContent.buttonOne} <span>{buttonContent.buttonOneSpan}</span>
             </CustomLink>
-
             <ContactLink href="/Contact">
                 <span>{buttonContent.buttonTwoSpan}</span> {buttonContent.buttonTwo}
             </ContactLink>
@@ -53,7 +52,6 @@ const CustomLink = styled.a`
         width: 65%;
     }
 `;
-
 const ContactLink = styled(CustomLink)`
     background-color: #8fbc8f;
     margin-top: 20px;

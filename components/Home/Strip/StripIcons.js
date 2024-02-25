@@ -57,7 +57,6 @@ const Holder = styled.div`
         height: 140px;
     }
 `;
-
 const Wrapper = styled.div`
     display: flex;
     justify-content: space-evenly;

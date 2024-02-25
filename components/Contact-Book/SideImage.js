@@ -19,7 +19,6 @@ const Container = styled.div`
     width: 100%;
     padding: 12px;
 `;
-
 const CustomImage = styled(Image)`
     object-fit: cover;
     object-position: center;

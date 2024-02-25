@@ -12,7 +12,6 @@ function FooterContent({ title, links }) {
             })
         ).isRequired,
     };
-
     return (
         <Container>
             <Title>{title}</Title>
@@ -32,13 +31,11 @@ export default FooterContent;
 const Container = styled.div`
     padding: 12px 0;
 `;
-
 const Title = styled.p`
     font-size: 20px;
     font-weight: bold;
     margin: 0 0 4px 0;
 `;
-
 const Links = styled.div`
     width: 45%;
     display: flex;
@@ -47,7 +44,6 @@ const Links = styled.div`
         width: 100%;
     }
 `;
-
 const CustomLink = styled(Link)`
     text-decoration: none;
     color: white;

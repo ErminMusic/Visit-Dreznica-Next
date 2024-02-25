@@ -20,13 +20,11 @@ function QuestionHolder({ title, questions }) {
             })
         ).isRequired,
     };
-
     return (
         <Container id={title}>
             <Category>
                 <h2>{title}:</h2>
             </Category>
-
             {questions.map((question, index) => (
                 <Question
                     key={index}
@@ -66,7 +64,6 @@ const Container = styled.div`
         scroll-margin-top: 230px;
     }
 `;
-
 const Category = styled.div`
     display: flex;
     justify-content: start;
@@ -83,7 +80,6 @@ const Category = styled.div`
         width: 20%;
         height: 4px;
         background-color: #525252;
-
         @media (max-width: 950px) {
             width: 175px;
         }
@@ -111,13 +107,11 @@ const Question = styled.div`
     }
     cursor: pointer;
 `;
-
 const CustomArrow = styled(KeyboardArrowDownIcon)`
     &.MuiSvgIcon-root {
         font-size: 36px;
     }
 `;
-
 const Answer = styled.div`
     font-weight: normal;
     margin-top: 12px;

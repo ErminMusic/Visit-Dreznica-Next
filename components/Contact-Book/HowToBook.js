@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import Body from "./Body";
 function HowToBook() {
     const HowToBookBg = "/Background/HowToBookBg.webp";
@@ -16,12 +15,10 @@ function HowToBook() {
     };
 
     return (
-        <Container>
+        <div>
             <Body content={content} />
-        </Container>
+        </div>
     );
 }
 
 export default HowToBook;
-
-const Container = styled.div``;

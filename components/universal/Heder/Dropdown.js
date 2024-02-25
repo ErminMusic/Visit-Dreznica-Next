@@ -12,7 +12,6 @@ function Dropdown({ title, options }) {
             })
         ),
     };
-
     return (
         <Container>
             <Wrapp>
@@ -32,6 +31,9 @@ function Dropdown({ title, options }) {
         </Container>
     );
 }
+
+export default Dropdown;
+
 const CustomArrow = styled(KeyboardArrowDownIcon)`
     &.MuiSvgIcon-root {
         font-size: 36px;
@@ -60,7 +62,6 @@ const Drop = styled.div`
         position: relative;
     }
 `;
-
 const Container = styled.div`
     position: relative;
     z-index: 1000;
@@ -94,5 +95,3 @@ const Wrapp = styled.div`
         justify-content: start;
     }
 `;
-
-export default Dropdown;

@@ -5,9 +5,7 @@ const About = dynamic(() => import("../About/About"));
 const Strip = dynamic(() => import("../Strip/Strip"));
 const RoomEquipment = dynamic(() => import("../RoomEquipment/RoomEquipment"));
 const Rooms = dynamic(() => import("../Room/Rooms"));
-const Activities = dynamic(() =>
-    import("../Activites-Attractions/Activitie-Attraction")
-);
+const Activities = dynamic(() => import("../Activites-Attractions/Activitie-Attraction"));
 const Review = dynamic(() => import("../ReviewSlider/Review"));
 const AboutUs = dynamic(() => import("../About/AboutUs"));
 const Galery = dynamic(() => import("../Galery/Galery"));
@@ -62,7 +60,16 @@ function HomeFetch() {
         titleBold: "About ",
         aboutUsDescription: [
             {
-                __html: `Surrounded by lush vegetation and framed by towering mountains, <b>this confluence exudes a sense of peacefulness and serenity.</b>\n\n`,
+                __html: `Welcome to Visit Drežnica! We are a small family-owned and operated business, <b>serving tourists for over 8 years.</b>`,
+            },
+            {
+                __html: `Led by Dino and his family, we offer cozy accommodations with stunning vistas in Drežnica.`,
+            },
+            {
+                __html: `From <b>Dino's friendly demeanor to Sabina's culinary delights</b>, every moment with us is crafted to leave a lasting impression.`,
+            },
+            {
+                __html: `Visit us and discover the <b>Bosnian hospitality firsthand.</b>`,
             },
         ],
         alter: "About Image",
@@ -86,3 +93,8 @@ export default HomeFetch;
 const Container = styled.div`
     overflow: hidden;
 `;
+
+
+
+
+

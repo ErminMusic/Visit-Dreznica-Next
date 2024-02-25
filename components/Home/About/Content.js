@@ -17,7 +17,6 @@ function Content({ content, title, titleBold }) {
             ),
         ]).isRequired,
     };
-
     const renderContent = () => {
         if (Array.isArray(content)) {
             return content.map((item, index) => {
@@ -44,7 +43,6 @@ function Content({ content, title, titleBold }) {
             return null;
         }
     };
-
     return (
         <ContentHolder>
             {(title || titleBold) && (
@@ -87,5 +85,3 @@ const ContentHolder = styled.div`
         margin: 16px 0 0 0;
     }
 `;
-
-// const Paragraph = styled.p``;

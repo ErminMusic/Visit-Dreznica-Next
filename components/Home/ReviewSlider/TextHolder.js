@@ -22,7 +22,6 @@ const TextHolder = ({ date, title, description, disliked }) => {
     const dislike = disliked
         .split("\n")
         .map((paragraph, index) => <p key={index}>{paragraph}</p>);
-
     return (
         <TextContainer>
             <p>
@@ -58,6 +57,7 @@ const TextContainer = styled.div`
         margin: 14px 0;
     }
     div {
+        margin: 14px 0;
         span {
             font-size: 18px;
             font-weight: bold;

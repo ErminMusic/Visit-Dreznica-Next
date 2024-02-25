@@ -35,7 +35,6 @@ const ImageHolder = styled.div`
         padding: 0;
     }
 `;
-
 const CustomImage = styled(Image)`
     width: 100%;
     height: 100%;

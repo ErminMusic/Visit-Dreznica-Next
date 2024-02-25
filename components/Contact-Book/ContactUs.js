@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import Body from "./Body";
 
 function ContactUs() {
@@ -17,12 +16,10 @@ function ContactUs() {
     };
 
     return (
-        <Container>
+        <div>
             <Body content={content} />
-        </Container>
+        </div>
     );
 }
 
 export default ContactUs;
-
-const Container = styled.div``;

@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 function Map() {
     const [link, setLink] = useState("");
-
     const getMap = async () => {
         setTimeout(() => {
             setLink(
@@ -13,11 +12,9 @@ function Map() {
             );
         }, 3000);
     };
-
     useEffect(() => {
         getMap();
     }, []);
-
     return (
         <StyledMap>
             <Location

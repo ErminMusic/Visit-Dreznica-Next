@@ -12,7 +12,6 @@ function IconHolder() {
         Phone: "+387 616 281 58",
         email: "visitdreznica@gmail.com",
     };
-
     const handleCopyToClipboard = (text) => {
         navigator.clipboard
             .writeText(text)
@@ -23,7 +22,6 @@ function IconHolder() {
                 console.error("Could not copy text: ", error);
             });
     };
-
     return (
         <div>
             <LinkHolder href={contacts.IG}>
@@ -64,7 +62,6 @@ const LinkHolder = styled(Link)`
     letter-spacing: 1.5px;
     font-size: 16px;
     position: relative;
-
     div {
         cursor: pointer;
         display: flex;
@@ -89,7 +86,6 @@ const LinkHolder = styled(Link)`
         }
     }
 `;
-
 const InfoHolder = styled.div`
     display: flex;
     align-items: center;
@@ -100,7 +96,6 @@ const InfoHolder = styled.div`
     letter-spacing: 1.5px;
     font-size: 16px;
     position: relative;
-
     div {
         cursor: pointer;
         display: flex;
@@ -125,7 +120,6 @@ const InfoHolder = styled.div`
         }
     }
 `;
-
 const CustomIG = styled(InstagramIcon)`
     &.MuiSvgIcon-root {
         margin-right: 4px;

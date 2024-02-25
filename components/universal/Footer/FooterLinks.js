@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 import HeaderLogo from "../Heder/HeaderLogo";
 import FooterContent from "./FooterContent";
@@ -10,11 +9,11 @@ function FooterLinks() {
         links: [
             {
                 name: "About Drežnica",
-                link: "#About Drežnica",
+                link: "#AboutDreznica",
             },
             {
                 name: "About Us",
-                link: "#About Us",
+                link: "#AboutUs",
             },
         ],
     };
@@ -48,7 +47,6 @@ function FooterLinks() {
             },
         ],
     };
-
     return (
         <Container>
             <LogoHolder>
@@ -77,6 +75,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    scroll-behavior: smooth;
     @media (max-width: 750px) {
         width: 100%;
     }

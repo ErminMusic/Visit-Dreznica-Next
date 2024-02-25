@@ -33,7 +33,6 @@ const Wrap = styled.nav`
     top: 80px;
     z-index: 90;
 `;
-
 const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
@@ -47,7 +46,6 @@ const Container = styled.div`
         margin: 8px 0;
     }
 `;
-
 const NavItem = styled.a`
     font-weight: bold;
     color: #525252;
@@ -60,7 +58,6 @@ const NavItem = styled.a`
     @media (max-width: 700px) {
         justify-content: start;
     }
-
     span {
         letter-spacing: 1.5px;
         text-transform: uppercase;

@@ -6,7 +6,6 @@ import styled from "styled-components";
 const ScrollToTopButton = () => {
     const UpIcon = "/Icons/Up.webp";
     const [isVisible, setIsVisible] = useState(false);
-
     const toggleVisibility = () => {
         if (window.pageYOffset > 400) {
             setIsVisible(true);
@@ -26,7 +25,6 @@ const ScrollToTopButton = () => {
             window.removeEventListener("scroll", toggleVisibility);
         };
     }, []);
-
     return (
         <Container
             onClick={scrollToTop}
@@ -60,7 +58,6 @@ const Container = styled.div`
         scale: 1.1;
     }
 `;
-
 const CustomImage = styled(Image)`
     width: 40px;
     height: 40px;

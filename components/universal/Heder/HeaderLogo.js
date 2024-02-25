@@ -39,4 +39,3 @@ const LogoImage = styled(Image)`
     height: 100%;
     max-width: 70px;
 `;
-// const Title = styled.h2``;

@@ -52,7 +52,6 @@ const TitleHolder = styled.div`
     span {
         font-weight: bold;
     }
-
     @media (max-width: 850px) {
         width: 95%;
     }

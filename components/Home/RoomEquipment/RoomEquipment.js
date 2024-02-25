@@ -5,7 +5,7 @@ import {
     ServiceInclude,
     BathroomInclude,
 } from "../../../data/IncludeIcons";
-import EquipmentIcons from "./EquipmentIcons"
+import EquipmentIcons from "./EquipmentIcons";
 
 function RoomEquipment() {
     const room = {
@@ -28,10 +28,10 @@ function RoomEquipment() {
     return (
         <Wrap>
             <Container>
-                    <EquipmentIcons title={room} content={RoomsInclude} />
-                    <EquipmentIcons title={outdoor} content={OutdoorsInclude} />
-                    <EquipmentIcons title={service} content={ServiceInclude} />
-                    <EquipmentIcons title={bathroom} content={BathroomInclude} />
+                <EquipmentIcons title={room} content={RoomsInclude} />
+                <EquipmentIcons title={outdoor} content={OutdoorsInclude} />
+                <EquipmentIcons title={service} content={ServiceInclude} />
+                <EquipmentIcons title={bathroom} content={BathroomInclude} />
             </Container>
         </Wrap>
     );

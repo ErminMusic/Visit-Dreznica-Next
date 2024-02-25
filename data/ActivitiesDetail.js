@@ -77,7 +77,7 @@ export const AttractionDetailList = [
         name: "Veliki Movram Waterfall",
         linkName: "Movram Waterfall",
         alter: "Veliki Morvan Waterfall",
-        side: false,
+        side: true,
         link: "Waterfall",
         description:
             "8Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet laborum maiores labore animi, similique soluta pariatur ullam nisi consectetur sunt, eos explicabo ut id quaerat quidem, rerum amet voluptate?",
@@ -87,7 +87,7 @@ export const AttractionDetailList = [
         name: "Stećci",
         linkName: "Stećci",
         alter: "Stećci",
-        side: true,
+        side: false,
         link: "Stecci",
         description:
             "7Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet laborum maiores labore animi, similique soluta pariatur ullam nisi consectetur sunt, eos explicabo ut id quaerat quidem, rerum amet voluptate?",
