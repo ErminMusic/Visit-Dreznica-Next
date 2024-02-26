@@ -3,7 +3,7 @@ const RentABike = "/Activities&Attractions/RentABike.webp";
 const Hiking = "/Activities&Attractions/Hiking.webp";
 const Swimming = "/Activities&Attractions/Swimming.webp";
 const Document = "/Activities&Attractions/Document.webp";
-const Waterfall = "/Activities&Attractions/VelikiMovram.webp";
+const Waterfall = "/Activities&Attractions/VelikiMovramF.webp";
 const Bunkers = "/Activities&Attractions/Bunkers.webp";
 const Stecci = "/Activities&Attractions/Stecci.webp";
 

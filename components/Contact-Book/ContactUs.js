@@ -1,6 +1,6 @@
 import Body from "./Body";
 
-function ContactUs() {
+function ContactUs({ data }) {
     const ContactBg = "/Background/ContactBg.webp";
     const ContactSide = "/General/ContactSide.webp";
     const ContactPhone = "/Background/ContactPhone.webp";
@@ -17,9 +17,18 @@ function ContactUs() {
 
     return (
         <div>
-            <Body content={content} />
+            <Body content={content} data={data} />
         </div>
     );
 }
 
 export default ContactUs;
+
+export async function getStaticProps() {
+    const data = await fetchData();
+    return {
+        props: {
+            data,
+        },
+    };
+}

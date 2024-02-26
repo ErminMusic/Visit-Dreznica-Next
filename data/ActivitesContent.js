@@ -3,8 +3,7 @@ const RentABike = "/Activities&Attractions/RentABike.webp";
 const Hiking = "/Activities&Attractions/Hiking.webp";
 const Swimming = "/Activities&Attractions/Swimming.webp";
 const Document = "/Activities&Attractions/Document.webp";
-const Waterfall = "/Activities&Attractions/VelikiMovram.webp";
-const Waterfall2 = "/Activities&Attractions/VelikiMovramF.webp";
+const Waterfall = "/Activities&Attractions/VelikiMovramF.webp";
 const Bunkers = "/Activities&Attractions/Bunkers.webp";
 const Stecci = "/Activities&Attractions/Stecci.webp";
 export const ActivitiesList = [
@@ -55,13 +54,6 @@ export const AttractionList = [
     },
     {
         image: Waterfall,
-        name: "Waterfall",
-        alter: "Veliki Morvan Waterfall",
-        link: "Attractions",
-        linkTo: "#Waterfall",
-    },
-    {
-        image: Waterfall2,
         name: "Movran Waterfall",
         alter: "Veliki Morvan Waterfall",
         link: "Attractions",

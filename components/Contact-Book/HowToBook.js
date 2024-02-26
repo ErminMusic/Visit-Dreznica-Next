@@ -1,5 +1,5 @@
 import Body from "./Body";
-function HowToBook() {
+function HowToBook({ data }) {
     const HowToBookBg = "/Background/HowToBookBg.webp";
     const HowToBookSide = "/General/HowToBookSide.webp";
     const HowToBookPhone = "/Background/HowToBookPhone.webp";
@@ -16,9 +16,18 @@ function HowToBook() {
 
     return (
         <div>
-            <Body content={content} />
+            <Body content={content} data={data} />
         </div>
     );
 }
 
 export default HowToBook;
+
+export async function getStaticProps() {
+    const data = await fetchData();
+    return {
+        props: {
+            data,
+        },
+    };
+}
