@@ -57,3 +57,13 @@ const Container = styled.div`
         align-items: center;
     }
 `;
+
+export async function getStaticProps() {
+    const data = await fetchData();
+
+    return {
+        props: {
+            content: data,
+        },
+    };
+}
