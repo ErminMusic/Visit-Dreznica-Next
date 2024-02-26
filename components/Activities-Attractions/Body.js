@@ -54,8 +54,6 @@ const Content = styled.div`
     margin: 12px 0;
     display: flex;
     justify-content: space-between;
-    flex-direction: ${({ $isReversed }) =>
-        $isReversed ? "row-reverse" : "row"};
     @media (max-width: 850px) {
         width: 95%;
     }

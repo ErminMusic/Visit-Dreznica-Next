@@ -3,20 +3,20 @@ const RentABike = "/Activities&Attractions/RentABike.webp";
 const Hiking = "/Activities&Attractions/Hiking.webp";
 const Swimming = "/Activities&Attractions/Swimming.webp";
 const Document = "/Activities&Attractions/Document.webp";
-const Waterfall = "/Activities&Attractions/VelikiMovramF.webp";
+const Waterfall = "/Activities&Attractions/VelikiMovram.webp";
 const Bunkers = "/Activities&Attractions/Bunkers.webp";
 const Stecci = "/Activities&Attractions/Stecci.webp";
 
 export const ActivitiesDetailList = [
     {
         image: RentABoat,
-        name: "Rent a Boat",
+        name: "Rent a Boat & Canoe",
         linkName: "Rent a Boat",
         alter: "Rent a Boat Image",
         side: true,
         link: "RentABoat",
         description:
-            "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet laborum maiores labore animi, similique soluta pariatur ullam nisi consectetur sunt, eos explicabo ut id quaerat quidem, rerum amet voluptate?",
+            "Discover Drežnica's natural beauty from a different perspective. Navigate the tranquil waters of the lake at your leisure, encircled by awe-inspiring mountain scenery. It's an ideal way to infuse your Drežnica getaway with a sense of adventure and exploration!",
         note: "",
         noteDescription: "",
     },
@@ -28,7 +28,7 @@ export const ActivitiesDetailList = [
         side: false,
         link: "RentABike",
         description:
-            "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet laborum maiores labore animi, similique soluta pariatur ullam nisi consectetur sunt, eos explicabo ut id quaerat quidem, rerum amet voluptate?",
+            "Embrace the charm of Drežnica on two wheels! Embark on a journey through picturesque trails, immersing yourself in the serene beauty of the surrounding nature. Whether you're a leisurely cyclist or an avid adventurer, exploring Drežnica by bike promises unforgettable experiences and breathtaking views at every turn.",
         note: "",
         noteDescription: "",
     },
@@ -40,7 +40,7 @@ export const ActivitiesDetailList = [
         side: true,
         link: "Hiking",
         description:
-            "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet laborum maiores labore animi, similique soluta pariatur ullam nisi consectetur sunt, eos explicabo ut id quaerat quidem, rerum amet voluptate?",
+            "Discover beautiful hiking and climbing opportunities in Mountains Čvrsinca and Čabulja. 5 minutes away from the property lies Čvrsnica Vrt Ciklama, a popular location for mountain climbers. Here, you can scale impressive 40-meter-tall cliffs for breathtaking vistas. Additionally, Drežnica offers a plethora of scenic trails, promising awe-inspiring views of untouched nature at every turn.",
         note: "Note",
         noteDescription:
             "We do not rent hiking or mountain climbing equipment.",
@@ -53,7 +53,7 @@ export const ActivitiesDetailList = [
         side: false,
         link: "Swimming",
         description:
-            "4Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet laborum maiores labore animi, similique soluta pariatur ullam nisi consectetur sunt, eos explicabo ut id quaerat quidem, rerum amet voluptate?",
+            "Escape the summer heat by cooling off in the pristine waters of the nearby lake or the scenic river Drežanka. Immerse yourself in the refreshing emerald waters, just a stone's throw away from our property. Whether you prefer the calm serenity of the lake or the gentle flow of the river, both offer the perfect oasis for a relaxing swim.",
         note: "",
         noteDescription: "",
     },
@@ -104,7 +104,7 @@ export const AttractionDetailList = [
         side: false,
         link: "Stecci",
         description:
-            "This necropolis, located near the village of Drežnica, features four large stone crosses dating back to the 14th-15th centuries. They are richly decorated and offer valuable insights into the region's medieval artistic and cultural heritage.",
+            "This necropolis, located near the village of Drežnica, features four large stone tombstones dating back to the 14th-15th centuries. They are richly decorated and offer valuable insights into the region's medieval artistic and cultural heritage.",
         note: "Location",
         noteDescription: "4km away from the property.",
     },
