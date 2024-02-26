@@ -95,12 +95,3 @@ const Container = styled.div`
     display: flex;
     padding: 8px;
 `;
-
-export async function getStaticProps() {
-    const data = await fetchData(); 
-    return {
-        props: {
-            list: data,
-        },
-    };
-}

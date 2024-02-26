@@ -86,13 +86,3 @@ const Text = styled.div`
     font-weight: bold;
     padding: 12px 0 0 0;
 `;
-
-export async function getStaticProps() {
-    const data = await fetchData();
-    return {
-        props: {
-            title: data,
-            content: data,
-        },
-    };
-}

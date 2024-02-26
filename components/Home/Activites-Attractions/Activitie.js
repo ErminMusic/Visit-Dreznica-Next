@@ -116,12 +116,3 @@ const Button = styled.a`
         border: 0;
     }
 `;
-
-export async function getStaticProps() {
-    const data = await fetchData(); 
-    return {
-        props: {
-            list: data,
-        },
-    };
-}

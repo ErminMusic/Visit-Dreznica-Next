@@ -2,11 +2,12 @@
 import styled from "styled-components";
 import Hero from "../Hero/Hero";
 import HomeFetch from "./HomeFetch";
-const HomePage = () => {
+
+const HomePage = ({ data }) => {
     return (
         <Container>
             <Hero />
-            <HomeFetch />
+            <HomeFetch data={data} />
         </Container>
     );
 };
@@ -17,3 +18,12 @@ const Container = styled.div`
     overflow: hidden;
     scroll-margin-top: 80px;
 `;
+
+export async function getStaticProps() {
+    const data = await fetchData();
+    return {
+        props: {
+            data,
+        },
+    };
+}

@@ -144,12 +144,3 @@ const CustomImage = styled(Image)`
     object-fit: cover;
     object-position: center;
 `;
-
-export async function getStaticProps() {
-    const data = await fetchData(); 
-    return {
-        props: {
-            images: data,
-        },
-    };
-}
