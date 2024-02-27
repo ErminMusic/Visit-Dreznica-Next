@@ -6,7 +6,7 @@ function Icons() {
         {
             icon: "/Icons/Award.webp",
             alter: "Award Icon",
-            text: "Booking.com Traveller Review Awards 2022",
+            text: "Booking.com Traveller Review Award 2022",
         },
         {
             icon: "/Icons/Score.webp",

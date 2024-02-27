@@ -83,12 +83,12 @@ export const ServiceInclude = [
     {
         icon: "/Icons/Breakfast.webp",
         alter: "Breakfast",
-        text: "Breakfast",
+        text: "Breakfast (additional charges)",
     },
     {
         icon: "/Icons/PackedLunch.webp",
         alter: "PackedLunch",
-        text: "PackedLunch",
+        text: "PackedLunch (additional charges)",
     },
     {
         icon: "/Icons/Delivery.webp",
