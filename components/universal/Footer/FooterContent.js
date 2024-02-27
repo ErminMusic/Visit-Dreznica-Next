@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Link from "next/link";
 import PropTypes from "prop-types";
 
 function FooterContent({ title, links }) {
@@ -44,7 +43,7 @@ const Links = styled.div`
         width: 100%;
     }
 `;
-const CustomLink = styled(Link)`
+const CustomLink = styled.a`
     text-decoration: none;
     color: white;
     padding: 10px 0;
