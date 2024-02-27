@@ -27,7 +27,7 @@ export const GuestReview = [
         flag: "/Reviews/Francuska.webp",
         countryName: "France",
         score: "10",
-        date: "18/01/2024",
+        date: "04/09/2023",
         title: "The highlight of my trip & beyond all expectations!",
         description: `One of the best places I have ever stayed in. Dino and his mom were super nice and very welcoming. You immediately feel like you're at home. \nMrs. Sabina, Dino's mom, is an incredible cook (the best cevapi I've had were hers, and I tried a bunch). Dino offered me a boat ride to show me around. You can swim in the lake, and the water is very clean and not cold.\nDino was always helpful and there when I needed anything. He even offered to come and pick me up from Mostar and drive me around to show me the other side of Drežnica. \nDrežnica's nature is simply breathtaking. When you're there, you can't help but feel a profound sense of tranquility and overwhelming peace.\n`,
         disliked: `Nothing to dislike.`,
