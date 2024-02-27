@@ -12,7 +12,7 @@ export const GuestReview = [
     },
     {
         name: "Rayru",
-        profileImage: "/Reviews/ProfilePlaceholder.webp",
+        profileImage: "/Reviews/RayruImage.webp",
         flag: "/Reviews/Venecuela.webp",
         countryName: "Venezuela",
         score: "10",
@@ -59,7 +59,7 @@ export const GuestReview = [
 export const GuestReviewSecond = [
     {
         name: "Rayru",
-        profileImage: "/Reviews/ProfilePlaceholder.webp",
+        profileImage: "/Reviews/RayruImage.webp",
         flag: "/Reviews/Venecuela.webp",
         countryName: "Venezuela",
         score: "10",
