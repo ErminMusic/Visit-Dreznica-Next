@@ -9,6 +9,10 @@ function HeaderLogo() {
             <CustomLink href="/">
                 <Logo>
                     <LogoImage alt="Logo" src={logo} width={100} height={100} loading="lazy" />
+                    <h1>
+                        VISIT  <br />
+                        DREŽNICA
+                    </h1>
                 </Logo>
             </CustomLink>
         </>
