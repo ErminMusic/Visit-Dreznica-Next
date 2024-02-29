@@ -16,7 +16,7 @@ export const ActivitiesDetailList = [
         side: true,
         link: "RentABoat",
         description:
-            "Discover Drežnica's natural beauty from a different perspective. Navigate the tranquil waters of the lake at your leisure, encircled by awe-inspiring mountain scenery. It's an ideal way to infuse your Drežnica getaway with a sense of adventure and exploration!",
+            "Explore Drežnica's natural beauty from a different perspective. Navigate the tranquil waters of the lake at your leisure, surrounded by awe-inspiring mountain scenery. It's an ideal way to infuse your Drežnica getaway with a sense of adventure and exploration, creating unforgettable memories along the way.",
         note: "",
         noteDescription: "",
     },
@@ -28,7 +28,7 @@ export const ActivitiesDetailList = [
         side: false,
         link: "RentABike",
         description:
-            "Embrace the charm of Drežnica on two wheels! Embark on a journey through picturesque trails, immersing yourself in the serene beauty of the surrounding nature. Whether you're a leisurely cyclist or an avid adventurer, exploring Drežnica by bike promises unforgettable experiences and breathtaking views at every turn.",
+            "Embrace Drežnica's charm on two wheels! Embark on a journey through picturesque trails, immersing yourself in the serene beauty of the surrounding nature. Whether you're a leisurely cyclist or an avid adventurer, exploring Drežnica by bike promises unforgettable experiences and breathtaking views at every turn.",
         note: "",
         noteDescription: "",
     },
@@ -40,7 +40,7 @@ export const ActivitiesDetailList = [
         side: true,
         link: "Hiking",
         description:
-            "Discover beautiful hiking and climbing opportunities in Mountains Čvrsinca and Čabulja. 5 minutes away from the property lies Čvrsnica Vrt Ciklama, a popular location for mountain climbers. Here, you can scale impressive 40-meter-tall cliffs for breathtaking vistas. Additionally, Drežnica offers a plethora of scenic trails, promising awe-inspiring views of untouched nature at every turn.",
+            "Discover beautiful hiking and climbing opportunities in Mountains Čvrsinca and Čabulja. Just 5 minutes from the property lies Čvrsnica Vrt Ciklama, a popular location for mountain climbers. Here, you can scale impressive 40-meter-tall cliffs for breathtaking vistas or explore scenic trails for awe-inspiring views of untouched nature, creating unforgettable adventures in the heart of Drežnica.",
         note: "Note",
         noteDescription:
             "We do not rent hiking or mountain climbing equipment.",
@@ -53,7 +53,7 @@ export const ActivitiesDetailList = [
         side: false,
         link: "Swimming",
         description:
-            "Escape the summer heat by cooling off in the pristine waters of the nearby lake or the scenic river Drežanka. Immerse yourself in the refreshing emerald waters, just a stone's throw away from our property. Whether you prefer the calm serenity of the lake or the gentle flow of the river, both offer the perfect oasis for a relaxing swim.",
+            "Escape the summer heat by cooling off in the pristine waters of the nearby lake or the scenic river Drežanka. Immerse yourself in the refreshing emerald waters, just a stone's throw away from our property. Whether you prefer the calm serenity of the lake or the gentle flow of the river, both offer the perfect oasis for a relaxing swim, allowing you to unwind and rejuvenate amidst Drežnica's natural beauty.",
         note: "",
         noteDescription: "",
     },
