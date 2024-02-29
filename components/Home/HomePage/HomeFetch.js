@@ -15,8 +15,8 @@ function HomeFetch() {
     const GuestReview = useMemo(() => RawGuestReview, []);
     const GuestReviewSecond = useMemo(() => RawGuestReviewSecond, []);
     const AboutDreznica = {
-        title: "visit Drežnica",
-        titleBold: "Why you should ",
+        title: "Explore Drežnica: ",
+        titleBold: "Where Adventure Meets Tranquility",
         generalDescription: [
             {
                 __html: `If you're <b>drawn to the serene beauty of nature</b> and <b>crave an escape from humdrum routine and daily stress</b>, Drežnica is the place for you.\n\n`,
@@ -25,7 +25,7 @@ function HomeFetch() {
                 __html: `Surrounded by breathtaking mountains with a tranquil emerald river going through and untouched nature stretching as far as the eye can see…\n\n`,
             },
             {
-                __html: `Drežnica offers an <b>unforgettable blend of adventure and peace.</b>\n\n`,
+                __html: `Drežnica offers a <b>genuine connection with nature and a tranquil serenity</b> that you can only discover off the beaten path.\n\n`,
             },
             {
                 __html: `After visiting Drežnica, you'll be <b>eager to share your exciting adventures with friends and family,</b> captivating them with tales of discovering hidden gems in its untouched wilderness.\n\n`,
@@ -42,6 +42,9 @@ function HomeFetch() {
                 __html: `To the south, Čabulja stretches out with its rolling slopes and verdant meadows, gently enfolding Drežnica in a tranquil embrace.\n\n`,
             },
             {
+                __html: `While climbing these mountains, you will <b>feel the thrill of scaling rocky summits</b> and <b>breathing in the crisp mountain air</b> as you gaze out over panoramic vistas that stretch as far as the eye can see.\n\n`,
+            },
+            {
                 __html: `Or...\n\n`,
             },
         ],
@@ -50,10 +53,13 @@ function HomeFetch() {
                 __html: `You can take a boat <b>ride, kayak, or swim</b> at the meeting point of two natural wonders...\n\n`,
             },
             {
-                __html: `The river <b>Drežanka gracefully converges with the expansive Neretva Lake</b>, creating a harmonious union where flowing waters meet still expanses.\n\n`,
+                __html: `<b>Drežanka gracefully converges with the expansive Neretva Lake</b>, creating a harmonious union where flowing waters meet still expanses.\n\n`,
             },
             {
                 __html: `Surrounded by lush vegetation and framed by towering mountains, this confluence exudes a sense of peacefulness and serenity.\n\n`,
+            },
+            {
+                __html: `These tranquil emerald waters <b>give a calming and refreshing feeling to everyone</b> who experiences their natural beauty.`,
             },
         ],
         alter: "About Image",
@@ -72,7 +78,7 @@ function HomeFetch() {
                 __html: `From <b>Dino's friendly demeanor to Sabina's culinary delights</b>, every moment with us is crafted to leave a lasting impression.`,
             },
             {
-                __html: `Visit us and discover the <b>Bosnian hospitality firsthand.</b>`,
+                __html: `Visit us and discover the <b>warm Bosnian hospitality firsthand.</b>`,
             },
         ],
         alter: "About Image",

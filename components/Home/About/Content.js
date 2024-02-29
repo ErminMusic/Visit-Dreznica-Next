@@ -47,8 +47,8 @@ function Content({ content, title, titleBold }) {
         <ContentHolder>
             {(title || titleBold) && (
                 <h2>
-                    {titleBold && <span>{titleBold}</span>}
                     {title}
+                    {titleBold && <span>{titleBold}</span>}
                 </h2>
             )}
             {renderContent()}
