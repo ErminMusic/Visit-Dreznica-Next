@@ -50,7 +50,7 @@ function HomeFetch() {
         ],
         riverDescription: [
             {
-                __html: `You can take a boat <b>ride, kayak, or swim</b> at the meeting point of two natural wonders...\n\n`,
+                __html: `You can take a <b>boat ride, kayak, or swim</b> at the meeting point of two natural wonders.\n\n`,
             },
             {
                 __html: `<b>Drežanka gracefully converges with the expansive Neretva Lake</b>, creating a harmonious union where flowing waters meet still expanses.\n\n`,

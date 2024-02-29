@@ -9,10 +9,10 @@ function HeaderLogo() {
             <CustomLink href="/">
                 <Logo>
                     <LogoImage alt="Logo" src={logo} width={100} height={100} loading="lazy" />
-                    <h1>
+                    <span>
                         VISIT  <br />
                         DREŽNICA
-                    </h1>
+                    </span>
                 </Logo>
             </CustomLink>
         </>
@@ -28,9 +28,10 @@ const Logo = styled.div`
     display: flex;
     align-items: center;
     cursor: pointer;
-    h1 {
+    span {
         font-size: 24px;
         color: white;
+        font-weight: bold;
         padding: 0 10px;
     }
 `;
