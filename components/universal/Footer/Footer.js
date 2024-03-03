@@ -1,6 +1,7 @@
 "use client";
 import dynamic from "next/dynamic";
 import styled from "styled-components";
+import Credits from "./Credits";
 const FooterLinks = dynamic(() =>  import("./FooterLinks"));
 const Map = dynamic(() =>  import("./Map"));
 
@@ -11,6 +12,7 @@ function Footer() {
                 <FooterLinks />
                 <Map />
             </Container>
+            <Credits />
         </Wrap>
     );
 }
@@ -21,9 +23,10 @@ const Wrap = styled.div`
     width: 100%;
     background-color: #507d7f;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 36px 0 24px 0;
+    padding: 36px 0 0px 0;
     color: #ffff;
 `;
 const Container = styled.div`
