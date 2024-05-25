@@ -15,20 +15,17 @@ function HomeFetch() {
     const GuestReview = useMemo(() => RawGuestReview, []);
     const GuestReviewSecond = useMemo(() => RawGuestReviewSecond, []);
     const AboutDreznica = {
-        title: "Explore Drežnica: ",
-        titleBold: "Where Adventure Meets Tranquility",
+        title: "If you want to escape from daily stress, ",
+        titleBold: "Drežnica is the place for you.",
         generalDescription: [
             {
-                __html: `If you're <b>drawn to the serene beauty of nature</b> and <b>crave an escape from humdrum routine and daily stress</b>, Drežnica is the place for you.\n\n`,
+                __html: `Surrounded by stunning mountains and an emerald river that stretches as far as the eye can see.\n\n`,
             },
             {
-                __html: `Surrounded by breathtaking mountains with a tranquil emerald river going through and untouched nature stretching as far as the eye can see…\n\n`,
+                __html: `Offering a <b>sense of calmness</b> with every breath of its untouched nature.\n\n`,
             },
             {
-                __html: `Drežnica offers a <b>genuine connection with nature and a tranquil serenity</b> that you can only discover off the beaten path.\n\n`,
-            },
-            {
-                __html: `After visiting Drežnica, you'll be <b>eager to share your exciting adventures with friends and family,</b> captivating them with tales of discovering hidden gems in its untouched wilderness.\n\n`,
+                __html: `After visiting Drežnica, you’ll <b>want to share the story of your amazing trip.</b>\n\n`,
             },
         ],
         mountainDescription: [
@@ -69,16 +66,16 @@ function HomeFetch() {
         titleBold: "About Us",
         aboutUsDescription: [
             {
-                __html: `Welcome to Visit Drežnica! We are a small family-owned and operated business, <b>serving tourists for over 8 years.</b>`,
+                __html: `Welcome to Visit Drežnica! A small family-owned business <b>serving  over 5 years.<b>`,
             },
             {
-                __html: `Led by Dino and his family, we offer cozy accommodations with stunning vistas in Drežnica.`,
+                __html: `Enjoy cozy rooms with beautiful views of Drežnica.`,
             },
             {
-                __html: `From <b>Dino's friendly demeanor to Sabina's culinary delights</b>, every moment with us is crafted to leave a lasting impression.`,
+                __html: `We will give you a <b>stay worth remembering.</b>`,
             },
             {
-                __html: `Visit us and discover the <b>warm Bosnian hospitality firsthand.</b>`,
+                __html: `Visit us and feel the <b>warmth of Bosnian hospitality.</b>`,
             },
         ],
         alter: "About Image",
