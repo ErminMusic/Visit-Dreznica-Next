@@ -32,7 +32,7 @@ const CustomLink = styled.a`
     color: white;
     background-color: rgb(80, 125, 127);
     text-align: center;
-    width: 50%;
+    width: 70%;
     padding: 16px 0px;
     cursor: pointer;
     opacity: 0.9;

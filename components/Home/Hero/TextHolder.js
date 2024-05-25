@@ -7,7 +7,7 @@ function TextHolder() {
                 <span>Drežnica</span>
             </h1>
             <h2>
-                A Hidden Gem That <br /> Guarantees Peace
+                A Hidden Gem That <br /> <span>Guarantees Peace</span>
             </h2>
         </Container>
     );
@@ -30,5 +30,8 @@ const Container = styled.div`
         font-size: 32px;
         margin: 16px 0 20px 0;
         font-weight: normal;
+        span {
+            font-weight: bold;
+        }
     }
 `;
